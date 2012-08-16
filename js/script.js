@@ -9,6 +9,6 @@ function getcss(cssfile) {
 if (screen.width <= "800")
   getcss("../css/800x600.css");
 else if (screen.width > "800" && screen.width <= "1024")
-  getcss("../ccs/1024x768.css");
+  getcss("../css/1024x768.css");
 else
-  getcss("../ccs/1280x1024.css");
+  getcss("../css/1280x1024.css");
