@@ -1,4 +1,4 @@
 djgrill.com
 ===========
 
-My personal website
+My personal website, currently hosted at http://djgrill.herokuapp.com/
