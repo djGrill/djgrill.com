@@ -5,7 +5,7 @@ RewriteRule ^\.htaccess$ - [F]
 RewriteCond %{REQUEST_URI} =""
 RewriteRule ^.*$ /about/index.php [NC,L]
 
-RewriteCond %{REQUEST_URI} !^/webroot/.*$
+RewriteCond %{REQUEST_URI} !^/about/.*$
 RewriteRule ^(.*)$ /about/$1
 
 RewriteCond %{REQUEST_FILENAME} -f
