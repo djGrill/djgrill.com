@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteRule ^\.htaccess$ - [F]
+
+RewriteCond %{REQUEST_URI} =""
+RewriteRule ^.*$ /about/index.php [NC,L]
+
+RewriteCond %{REQUEST_URI} !^/webroot/.*$
+RewriteRule ^(.*)$ /about/$1
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^public/.*$ /about/index.php [NC,L]
