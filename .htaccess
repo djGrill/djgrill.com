@@ -8,6 +8,9 @@ RewriteRule ^.*$ /about/index.php [NC,L]
 RewriteCond %{REQUEST_URI} !^/about/.*$
 RewriteRule ^(.*)$ /about/$1
 
+RewriteCond %{REQUEST_URI} !^/js/.*$
+RewriteRule ^(.*)$ /js/$1
+
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^.*$ - [NC,L]
 
