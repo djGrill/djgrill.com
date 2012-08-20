@@ -15,3 +15,15 @@ RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^.*$ - [NC,L]
 
 RewriteRule ^public/.*$ /about/index.php [NC,L]
+
+<Directory /js>
+  Order Deny, Allow
+  Deny from none
+  Allow from all
+</Directory>
+
+<Directory /css>
+  Order Deny, Allow
+  Deny from none
+  Allow from all
+</Directory>
