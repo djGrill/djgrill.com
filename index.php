@@ -31,7 +31,7 @@
     <div id="nav">
       <ul>
         <li><a class="item selected">About</a></li>
-        <li><a href="http://blog.davidgrilli.com/" target="_blank" class="item">Blog</a></li>
+        <li><a href="http://blog.davidgrilli.com/" target="_blank" class="item">Bits</a></li>
         <li><a href="../contact/" class="item">Contact</a></li>
         <li><a href="../developer/" class="item">Developer</a></li>
         <li><a href="../experience/" class="item">Experience</a></li>
