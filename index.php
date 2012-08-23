@@ -11,9 +11,9 @@
   <meta name="robots" content="NOODP,NOYDIR" />
   <meta itemprop="image" content="https://lh5.googleusercontent.com/-n6ybEefGnKY/TrtAOpcDRQI/AAAAAAAAomI/UgcqHVm8HEU/s416/DGsmile.png" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro:regular,bold&amp;v2" />
-  <link rel="icon" type="image/x-ico" href="../img/favicon.ico" />
-  <link rel="shortcut icon" type="image/x-ico" href="../img/favicon.ico" />
-  <script type="text/javascript" src="../js/script.js"></script>
+  <link rel="icon" type="image/x-ico" href="img/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-ico" href="img/favicon.ico" />
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
