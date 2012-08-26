@@ -3,6 +3,7 @@ body {
   display: inline;
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif, verdana;
 }
 
 img {
@@ -19,7 +20,6 @@ img {
 #lan {
   float: right;
   color: #333;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
   display: none;
 }
 #lan .selected {
@@ -37,7 +37,7 @@ img {
   display: inline;
   font-size: 3.5em;
   font-weight: bold;
-  font-family: "Maven Pro",helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+  font-family: "Maven Pro", sans-serif, verdana;
   letter-spacing: -2px;
   color: #333;
   margin-left: -3px;
@@ -57,7 +57,7 @@ img {
   text-align: center;
   border: 0px;
   padding: 0px;
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 #nav li {
   display: inline;
@@ -73,7 +73,6 @@ img {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
 }
 #nav .item:hover {
   background: #eee;
@@ -89,99 +88,96 @@ img {
   margin-right: auto;
 }
 
-#content {
+.content {
   min-height: 510px;
   overflow: hidden;
 }
-#content a {
+.content a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
-#content p {
+.content p {
   color: #333;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
   font-size: 1em;
   padding: 4px;
   margin: 0px;
 }
-#content ul {
+.content ul {
   margin: 10px auto;
   padding: 5px auto;
 }
-#content .noBullets {
+.content .noBullets {
   list-style-type: none;
 }
-#content .noBullets img {
+.content .noBullets img {
   margin: 5px;
   margin-top: 2px;
   vertical-align: middle;
 }
-#content .withIcons {
+.content .withIcons {
   margin: 10px auto;
   padding: 5px 15px;
 }
-#content li {
+.content li {
   font-size: 1em;
   color: #333;
   margin: 5px 0px;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
 }
-#content .divLogo {
+.content .divLogo {
   display: inline;
   margin: 0px 7px 0px 3px;
   width: 16px;
   height: 16px;
 }
-#content .logoAboutMe {
+.content .logoAboutMe {
   background: url(../img/logos.png) -2px -2px no-repeat;
 }
-#content .logoFacebook {
+.content .logoFacebook {
   background: url(../img/logos.png) -22px -2px no-repeat;
 }
-#content .logoFormspring {
+.content .logoFormspring {
   background: url(../img/logos.png) -42px -2px no-repeat;
 }
-#content .logoFoursquare {
+.content .logoFoursquare {
   background: url(../img/logos.png) -2px -22px no-repeat;
 }
-#content .logoGplus {
+.content .logoGplus {
   background: url(../img/logos.png) -22px -22px no-repeat;
 }
-#content .logoLinkedIn {
+.content .logoLinkedIn {
   background: url(../img/logos.png) -2px -42px no-repeat;
 }
-#content .logoMiso {
+.content .logoMiso {
   background: url(../img/logos.png) -22px -42px no-repeat;
 }
-#content .logoTwitter {
+.content .logoTwitter {
   background: url(../img/logos.png) -2px -62px no-repeat;
 }
-#content .logoYouTube {
+.content .logoYouTube {
   background: url(../img/logos.png) -22px -62px no-repeat;
 }
-#content .logoGtalk {
+.content .logoGtalk {
   background: url(../img/logos.png) -42px -22px no-repeat;
 }
-#content .logoSkype {
+.content .logoSkype {
   background: url(../img/logos.png) -42px -42px no-repeat;
 }
 
-#leftContent {
+.content .left {
   width: 460px; /* .45 */
   padding: 20px;
   padding-bottom: 5px;
   display: block;
   float: left;
 }
-#leftContent h1 {
+.content .left h1 {
   color: #4d90fe;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
   font-size: 1.3em;
   margin: 0px;
 }
 
-#rightContent {
+.content .right {
   width: 350px;
   margin-left: 500px; /* .4 */
   padding: 20px;
@@ -197,7 +193,6 @@ img {
   margin-right: auto;
   color: gray;
   font-size: 0.8em;
-  font-family: helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
   text-align: center;
 }
 #footer span {

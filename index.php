@@ -42,7 +42,7 @@
 
     <div class="lnsep"></div>
 
-    <div id="about">
+    <div id="about" class="content">
       <div class="left">
         <p><strong>David Grilli D&iacute;az</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and loves to learn new things both related and unrelated to IT or Software Development. He's a Computer Engineer from <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and he's coursing the CCNA career certification at Cisco Networking Academy.</p>
         <br/>
@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="content">
       <div class="left">
         <p>Send David an email to <strong>me[at]davidgrilli.com</strong> if you'd like to:</p>
         <ul>
@@ -95,19 +95,19 @@
       </div>
     </div>
 
-    <div id="developer">
+    <div id="developer" class="content">
       <div class="left">
         <p>David has 5+ years of Software Development experience, and has worked with the following technologies:</p>
         <ul>
           <li>C/C++</li>
           <li>Java</li>
-          <li>JavaScript + jQuery</li>
+          <li>JavaScript, jQuery</li>
           <li>Ruby + Rails + Sinatra</li>
           <li>Python + Django</li>
-          <li>PHP</li>
-          <li>HTML + HAML</li>
-          <li>CSS + SASS</li>
-          <li>XML + DTD + XSD</li>
+          <li>PHP + Zend</li>
+          <li>HTML, HAML</li>
+          <li>CSS, SASS</li>
+          <li>XML, DTD, XSD</li>
           <li>Mobile: Android, PhoneGap</li>
           <li>DBMS: MySQL, PostgreSQL</li>
           <li>OS: GNU/Linux, MS Windows</li>
@@ -122,7 +122,7 @@
       </div>
     </div>
 
-    <div id="experience">
+    <div id="experience" class="content">
       <div class="left">
         <p>David's had the opportunity to work as a:</p>
           <ul>
@@ -159,5 +159,4 @@
     })();
   </script>
 </body>
-
 </html>
