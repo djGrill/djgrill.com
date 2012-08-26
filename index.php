@@ -31,12 +31,12 @@
     <div id="nav">
       <ul>
         <li><a class="item selected">About</a></li>
-        <li><a href="http://blog.davidgrilli.com/" target="_blank" class="item">Bits</a></li>
-        <li><a href="../contact/" class="item">Contact</a></li>
-        <li><a href="../developer/" class="item">Developer</a></li>
-        <li><a href="../experience/" class="item">Experience</a></li>
-        <li><a href="http://facebook.com/djgrill/" target="_blank" class="item">Facebook</a></li>
-        <li><a href="http://profiles.google.com/djgrill/about/" target="_blank" class="item">Google+</a></li>
+        <li><a href="http://blog.davidgrilli.com" target="_blank" class="item">Bits</a></li>
+        <li><a href="" class="item">Contact</a></li>
+        <li><a href="" class="item">Developer</a></li>
+        <li><a href="" class="item">Experience</a></li>
+        <li><a href="http://facebook.com/djgrill" target="_blank" class="item">Facebook</a></li>
+        <li><a href="https://github.com/djGrill" target="_blank" class="item">GitHub</a></li>
       </ul>
     </div>
 
