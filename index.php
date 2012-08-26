@@ -25,7 +25,7 @@
     </div>
 
     <div id="header">
-      <h1>dav<span class="coolRed">id</span>grill<span class="coolRed">id</span>&iacute;az</h1>
+      <h1>dav<span class="coolRed">id</span>grilli</h1>
     </div>
 
     <div id="nav">
@@ -44,7 +44,7 @@
 
     <div id="about" class="content">
       <div class="left">
-        <p><strong>David Grilli D&iacute;az</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and loves to learn new things both related and unrelated to IT or Software Development. He's a Computer Engineer from <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and he's coursing the CCNA career certification at Cisco Networking Academy.</p>
+        <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and loves to learn new things both related and unrelated to IT or Software Development. He's a Computer Engineer from <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and he's coursing the CCNA career certification at Cisco Networking Academy.</p>
         <br/>
         <p>He's a Computer Engineer from <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and he's coursing the CCNA career certification at Cisco Networking Academy. He's also the manager of <a href="http://guayana.gtugs.org/" target="_blank">Guayana GTUG</a>, a community for people interested in Google's developer technology.</p>
         <br/>
@@ -141,7 +141,7 @@
     <div class="lnsep"></div>
 
     <div id="footer">
-      <span>David Grilli D&iacute;az&nbsp;&copy;&nbsp;2012</span>
+      <span>David Grilli&copy;&nbsp;2012</span>
       <table border="0" align="right">
         <tr>
           <td align="center" width="34"><a href="http://twitter.com/djgrill/" target="_blank"><div class="logoTwitter"></div></a></td>
