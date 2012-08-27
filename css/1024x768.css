@@ -185,6 +185,12 @@ img {
   display: block;
 }
 
+#contact,
+#developer,
+#experience {
+  display: none;
+}
+
 #footer {
   line-height: 15px;
   padding: 5px;

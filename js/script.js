@@ -12,3 +12,31 @@ else if (screen.width > "800" && screen.width <= "1024")
   getcss("css/1024x768.css");
 else
   getcss("css/1280x1024.css");
+
+function showAbout() {
+  $(".content").hide();
+  $(".item").removeClass("selected");
+  $("#about").show();
+  $(".item.about").addClass("selected");
+}
+
+function showContact() {
+  $(".content").hide();
+  $(".item").removeClass("selected");
+  $("#contact").show();
+  $(".item.contact").addClass("selected");
+}
+
+function showDeveloper() {
+  $(".content").hide();
+  $(".item").removeClass("selected");
+  $("#developer").show();
+  $(".item.developer").addClass("selected");
+}
+
+function showExperience() {
+  $(".content").hide();
+  $(".item").removeClass("selected");
+  $("#experience").show();
+  $(".item.experience").addClass("selected");
+}

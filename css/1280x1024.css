@@ -160,25 +160,31 @@ img {
   background: url(../img/logos.png) -42px -42px no-repeat;
 }
 
-.leftContent {
+.content .left {
   width: 576px; /* .45 */
   padding: 30px;
   padding-bottom: 10px;
   display: block;
   float: left;
 }
-.leftContent h1 {
+.content .left h1 {
   color: #4d90fe;
   font-size: 1.3em;
   margin: 0px;
 }
 
-.rightContent {
+.content .right {
   width: 500px;
   margin-left: 600px;
   padding: 30px;
   padding-bottom: 20px;
   display: block;
+}
+
+#contact,
+#developer,
+#experience {
+  display: none;
 }
 
 #footer {

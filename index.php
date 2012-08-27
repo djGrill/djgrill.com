@@ -14,6 +14,7 @@
   <link rel="icon" type="image/x-ico" href="img/favicon.ico" />
   <link rel="shortcut icon" type="image/x-ico" href="img/favicon.ico" />
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
 </head>
 
 <body>
@@ -30,11 +31,11 @@
 
     <div id="nav">
       <ul>
-        <li><a class="item selected">About</a></li>
+        <li><a onclick="showAbout()" class="item about selected">About</a></li>
         <li><a href="http://blog.davidgrilli.com" target="_blank" class="item">Bits</a></li>
-        <li><a href="" class="item">Contact</a></li>
-        <li><a href="" class="item">Developer</a></li>
-        <li><a href="" class="item">Experience</a></li>
+        <li><a onclick="showContact()" class="item contact">Contact</a></li>
+        <li><a onclick="showDeveloper()" class="item developer">Developer</a></li>
+        <li><a onclick="showExperience()" class="item experience">Experience</a></li>
         <li><a href="http://facebook.com/djgrill" target="_blank" class="item">Facebook</a></li>
         <li><a href="https://github.com/djGrill" target="_blank" class="item">GitHub</a></li>
       </ul>
