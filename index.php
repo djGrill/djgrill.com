@@ -142,7 +142,7 @@
     <div class="lnsep"></div>
 
     <div id="footer">
-      <span>David Grilli&copy;&nbsp;2012</span>
+      <span>David Grilli&nbsp;&copy;&nbsp;2012</span>
       <table border="0" align="right">
         <tr>
           <td align="center" width="34"><a href="http://twitter.com/djgrill/" target="_blank"><div class="logoTwitter"></div></a></td>
