@@ -32,7 +32,7 @@
     <div id="nav">
       <ul>
         <li><a onclick="showAbout()" class="item about selected">About</a></li>
-        <li><a href="http://blog.davidgrilli.com" target="_blank" class="item">Bits</a></li>
+        <li><a href="http://blog.djgrill.com" target="_blank" class="item">Bits</a></li>
         <li><a onclick="showContact()" class="item contact">Contact</a></li>
         <li><a onclick="showDeveloper()" class="item developer">Developer</a></li>
         <li><a onclick="showExperience()" class="item experience">Experience</a></li>
