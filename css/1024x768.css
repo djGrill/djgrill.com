@@ -10,6 +10,10 @@ img {
   border: 0px;
 }
 
+a {
+  cursor: pointer;
+}
+
 #wrapper {
   width: 870px; /* .85 */
   margin: 5px auto;
@@ -42,12 +46,13 @@ img {
   color: #333;
   margin-left: -3px;
 }
-#header .coolRed {
+
+.coolRed {
   color: #d14836;
 }
 
 #nav {
-  height: 47px;
+  height: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -89,7 +94,7 @@ img {
 }
 
 .content {
-  min-height: 510px;
+  min-height: 520px;
   overflow: hidden;
 }
 .content a {
@@ -116,8 +121,8 @@ img {
   vertical-align: middle;
 }
 .content .withIcons {
-  margin: 10px auto;
-  padding: 5px 15px;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
 .content li {
   font-size: 1em;
