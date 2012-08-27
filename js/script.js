@@ -18,6 +18,7 @@ function showAbout() {
   $(".item").removeClass("selected");
   $("#about").show();
   $(".item.about").addClass("selected");
+  document.title = "About - David Grilli";
 }
 
 function showContact() {
@@ -25,6 +26,7 @@ function showContact() {
   $(".item").removeClass("selected");
   $("#contact").show();
   $(".item.contact").addClass("selected");
+  document.title = "Contact - David Grilli";
 }
 
 function showDeveloper() {
@@ -32,6 +34,7 @@ function showDeveloper() {
   $(".item").removeClass("selected");
   $("#developer").show();
   $(".item.developer").addClass("selected");
+  document.title = "Developer - David Grilli";
 }
 
 function showExperience() {
@@ -39,4 +42,5 @@ function showExperience() {
   $(".item").removeClass("selected");
   $("#experience").show();
   $(".item.experience").addClass("selected");
+  document.title = "Experience - David Grilli";
 }
