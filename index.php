@@ -6,8 +6,8 @@
   <title>About - David Grilli</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
   <meta name="name" content="David Grilli" />
-  <meta name="description" content="David Grilli: Software Developer from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands." />
-  <meta name="keywords" content="david,grilli,geek,fun,software,developer,venezuela,guayana,ucab,enschede,netherlands,computer,engineering,gtug,gamer,videogame,djgrill" />
+  <meta name="description" content="Web Developer from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands." />
+  <meta name="keywords" content="david,grilli,geek,fun,web,software,developer,venezuela,guayana,ucab,enschede,netherlands,computer,engineering,google,gtug,gdg,gamer,videogame,djgrill,freelance,freelancer,php" />
   <meta name="robots" content="NOODP,NOYDIR" />
   <meta itemprop="image" content="https://lh5.googleusercontent.com/-n6ybEefGnKY/TrtAOpcDRQI/AAAAAAAAomI/UgcqHVm8HEU/s416/DGsmile.png" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro:regular,bold&amp;v2" />
