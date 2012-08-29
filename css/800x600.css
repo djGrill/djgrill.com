@@ -68,30 +68,32 @@ a {
 }
 #nav li {
   display: inline;
-  margin: 2px 2px;
+  margin: 2px 0px;
   cursor: default;
 }
 #nav a {
-  padding: 0px 6px;
+  padding: 0px 12px 0px 6px;
   cursor: default;
 }
-#nav .item {
+#nav a.item {
   color: #333;
   text-decoration: none;
   font-size: 1.3em;
 }
-#nav .item:hover {
-  background: #eee;
+#nav a.item:hover {
+  background-color: #eee;
 }
-#nav .selected {
+#nav a.item.external:hover {
+  background: #eee url(../img/external.png) 100% 50% no-repeat;
+}
+#nav a.item.selected {
   color: #d14836;
 }
 
 .lnsep {
   width: 100%;
   border-bottom: 1px solid #dadada;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto;
 }
 
 .content {
