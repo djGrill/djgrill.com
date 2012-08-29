@@ -72,26 +72,29 @@ a {
   cursor: default;
 }
 #nav a {
-  padding: 0px 10px;
+  padding: 0px 12px 0px 10px;
   cursor: default;
 }
-#nav .item {
+#nav a.item {
   color: #333;
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
 }
-#nav .item:hover {
-  background: #eee;
+#nav a.item:hover {
+  background-color: #eee;
 }
-#nav .selected {
+#nav a.item.external:hover {
+  background: #eee url(../img/external.png) 100% 50% no-repeat;
+}
+#nav a.item.selected {
   color: #d14836;
 }
 
 .lnsep {
   width: 100%;
   border-bottom: 1px solid #dadada;
-  margin: 0px;
+  margin: 0px auto;
 }
 
 .content {
