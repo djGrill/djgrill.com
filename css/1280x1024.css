@@ -11,7 +11,7 @@ img {
 }
 
 a {
-  cursor: default;
+  cursor: pointer;
 }
 
 #wrapper {
@@ -55,7 +55,7 @@ a {
 #nav {
   height: 54px; /* .6 */
   margin-left: auto;
-  margin-right: auto;;
+  margin-right: auto;
 }
 #nav ul {
   list-style: inside;
