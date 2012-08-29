@@ -58,13 +58,13 @@ a {
   margin-right: auto;;
 }
 #nav ul {
+  list-style: inside;
   list-style-type: none;
   text-align: center;
   border: 0px;
   padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  list-style: inside;
+  margin: 15px auto;
+  white-space: nowrap;
 }
 #nav li {
   display: inline;

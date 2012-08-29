@@ -64,6 +64,7 @@ a {
   border: 0px;
   padding: 0px;
   margin: 10px auto;
+  white-space: nowrap;
 }
 #nav li {
   display: inline;

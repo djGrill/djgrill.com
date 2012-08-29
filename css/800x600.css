@@ -63,7 +63,8 @@ a {
   text-align: center;
   border: 0px;
   padding: 0px;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 10px;
+  white-space: nowrap;
 }
 #nav li {
   display: inline;
