@@ -202,16 +202,25 @@ a {
 }
 
 #footer {
-  line-height: 20px;
-  padding: 8px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1224px; /* .85 */
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
   color: gray;
   font-size: 0.8em;
-  text-align: center;
 }
-#footer a div {
+#footer #copy {
+  margin-left: 20px;
+  float: left;
+}
+#footer #social {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 20px;
+  float: right;
+}
+#footer #social a {
+  margin-right: 7px;
   opacity: 0.4;
   filter: alpha(opacity = 40);
   -webkit-transition-property: opacity;
@@ -221,22 +230,21 @@ a {
   -moz-transition-duration: 0.2s;
   -moz-transition-timing-function: ease-out;
 }
-#footer a:hover div {
+#footer #social a:hover {
   opacity: 0.9;
   filter: alpha(opacity = 90);
 }
-#footer .twitter {
+#footer #social span {
+  display: inline-block;
   width: 25px;
   height: 25px;
+}
+#footer #social span.twitter {
   background: url(../img/social-logos.png) -25px 0px no-repeat;
 }
-#footer .linkedin {
-  width: 25px;
-  height: 25px;
+#footer #social span.linkedin {
   background: url(../img/social-logos.png) 0px 0px no-repeat;
 }
-#footer .github {
-  width: 25px;
-  height: 25px;
+#footer #social span.github {
   background: url(../img/social-logos.png) -50px 0px no-repeat;
 }

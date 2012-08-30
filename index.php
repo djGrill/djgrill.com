@@ -144,14 +144,12 @@
     <div class="lnsep"></div>
 
     <div id="footer">
-      <span>David Grilli&nbsp;&copy;&nbsp;2012</span>
-      <table border="0" align="right">
-        <tr>
-          <td align="center" width="34"><a href="http://twitter.com/djGrill/" target="_blank"><div class="twitter"></div></a></td>
-          <td align="center" width="34"><a href="https://github.com/djGrill/" target="_blank"><div class="github"></div></a></td>
-          <td align="center" width="34"><a href="http://linkedin.com/in/djGrill/" target="_blank"><div class="linkedin"></div></a></td>
-        </tr>
-      </table>
+      <div id="copy">David Grilli&nbsp;&copy;&nbsp;2012</div>
+      <div id="social">
+        <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
+        <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
+        <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
+      </div>
     </div>
   </div>
 
