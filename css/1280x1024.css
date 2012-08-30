@@ -129,43 +129,43 @@ a {
   color: #333;
   margin: 5px 0px;
 }
-.content .divLogo {
+.content .logo {
   display: inline;
   margin: 0px 7px 0px 3px;
   width: 16px;
   height: 16px;
 }
-.content .logoAboutMe {
+.content .aboutme {
   background: url(../img/logos.png) -2px -2px no-repeat;
 }
-.content .logoFacebook {
+.content .facebook {
   background: url(../img/logos.png) -22px -2px no-repeat;
 }
-.content .logoFormspring {
+.content .formspring {
   background: url(../img/logos.png) -42px -2px no-repeat;
 }
-.content .logoFoursquare {
+.content .foursquare {
   background: url(../img/logos.png) -2px -22px no-repeat;
 }
-.content .logoGplus {
+.content .googleplus {
   background: url(../img/logos.png) -22px -22px no-repeat;
 }
-.content .logoLinkedIn {
+.content .linkedin {
   background: url(../img/logos.png) -2px -42px no-repeat;
 }
-.content .logoMiso {
+.content .miso {
   background: url(../img/logos.png) -22px -42px no-repeat;
 }
-.content .logoTwitter {
+.content .twitter {
   background: url(../img/logos.png) -2px -62px no-repeat;
 }
-.content .logoYouTube {
+.content .youtube {
   background: url(../img/logos.png) -22px -62px no-repeat;
 }
-.content .logoGtalk {
+.content .googletalk {
   background: url(../img/logos.png) -42px -22px no-repeat;
 }
-.content .logoSkype {
+.content .skype {
   background: url(../img/logos.png) -42px -42px no-repeat;
 }
 
@@ -206,13 +206,32 @@ a {
   font-size: 0.8em;
   text-align: center;
 }
-#footer .logoTwitter {
-  width: 25px;
-  height: 18px;
-  background: url(../img/social-logos.png) -22px -2px no-repeat;
+#footer a div {
+  opacity: 0.4;
+  filter: alpha(opacity = 40);
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
 }
-#footer .logoLinkedIn {
-  width: 18px;
-  height: 18px;
-  background: url(../img/social-logos.png) -2px -2px no-repeat;
+#footer a:hover div {
+  opacity: 0.9;
+  filter: alpha(opacity = 90);
+}
+#footer .twitter {
+  width: 25px;
+  height: 25px;
+  background: url(../img/social-logos.png) -25px 0px no-repeat;
+}
+#footer .linkedin {
+  width: 25px;
+  height: 25px;
+  background: url(../img/social-logos.png) 0px 0px no-repeat;
+}
+#footer .github {
+  width: 25px;
+  height: 25px;
+  background: url(../img/social-logos.png) -50px 0px no-repeat;
 }
