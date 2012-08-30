@@ -3,7 +3,7 @@ body {
   display: inline;
   margin: 0px;
   padding: 0px;
-  font-family: arial, sans-serif, verdana;
+  font-family: helvetica, arial, sans-serif, verdana;
 }
 
 img {
@@ -41,7 +41,7 @@ a {
   display: inline;
   font-size: 3.5em;
   font-weight: bold;
-  font-family: "Maven Pro", arial, sans-serif, verdana;
+  font-family: "Maven Pro", helvetica, arial, sans-serif, verdana;
   letter-spacing: -2px;
   color: #333;
   margin-left: -3px;
