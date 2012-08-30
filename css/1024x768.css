@@ -84,8 +84,19 @@ a {
 #nav a.item:hover {
   background-color: #eee;
 }
-#nav a.item.external:hover {
-  background: #eee url(../img/external.png) 100% 50% no-repeat;
+#nav a.item.external {
+  padding-right: 0px;
+}
+#nav a.item.external span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 2px;
+}
+#nav a.item.external:hover span {
+  background: #eee url(../img/logos.png) -2px -82px no-repeat;
 }
 #nav a.item.selected {
   color: #d14836;

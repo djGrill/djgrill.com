@@ -32,12 +32,12 @@
     <div id="nav">
       <ul>
         <li><a onclick="showAbout()" class="item about selected">About</a></li>
-        <li><a href="http://blog.djgrill.com" target="_blank" class="item external">Bits</a></li>
+        <li><a href="http://blog.djgrill.com" target="_blank" class="item external">Bits<span></span></a></li>
         <li><a onclick="showContact()" class="item contact">Contact</a></li>
         <li><a onclick="showDeveloper()" class="item developer">Developer</a></li>
         <li><a onclick="showExperience()" class="item experience">Experience</a></li>
-        <li><a href="http://facebook.com/djGrill" target="_blank" class="item external">Facebook</a></li>
-        <li><a href="https://github.com/djGrill" target="_blank" class="item external">GitHub</a></li>
+        <li><a href="http://facebook.com/djGrill" target="_blank" class="item external">Facebook<span></span></a></li>
+        <li><a href="https://github.com/djGrill" target="_blank" class="item external">GitHub<span></span></a></li>
       </ul>
     </div>
 
