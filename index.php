@@ -74,22 +74,22 @@
           <li>Give him feedback about his website.</li>
         </ul>
         <p>You can find him on the following Social Networks:</p>
-        <ul class="noBullets withIcons">
-          <li><div class="logo twitter">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://twitter.com/djgrill/" target="_blank">Twitter</a></li>
-          <li><div class="logo foursquare">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
-          <li><div class="logo miso">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
-          <li><div class="logo linkedin">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
-          <li><div class="logo googleplus">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
-          <li><div class="logo youtube">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
-          <li><div class="logo formspring">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
+        <ul class="no_bullets with_icons">
+          <li class="logo twitter"><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
+          <li class="logo foursquare"><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
+          <li class="logo miso"><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
+          <li class="logo linkedin"><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
+          <li class="logo googleplus"><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
+          <li class="logo youtube"><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
+          <li class="logo formspring"><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
         </ul>
       </div>
 
       <div class="right">
         <p>Or you can also contact him on any of the following IM services:</p>
-        <ul class="noBullets withIcons">
-          <li class="icon"><div class="logo googletalk">&nbsp;&nbsp;&nbsp;&nbsp;</div><strong>Google Talk:</strong> djgrill [at] gmail [dot] com</li>
-          <li class="icon"><div class="logo skype">&nbsp;&nbsp;&nbsp;&nbsp;</div><strong>Skype:</strong> davidgrillidiaz</li>
+        <ul class="no_bullets with_icons">
+          <li class="logo googletalk"><strong>Google Talk:</strong> djgrill [at] gmail [dot] com</li>
+          <li class="logo skype"><strong>Skype:</strong> davidgrillidiaz</li>
         </ul>
       </div>
     </div>

@@ -112,15 +112,15 @@ a {
   padding: 7px;
   margin: 0px;
 }
-.content .noBullets {
+.content .no_bullets {
   list-style-type: none;
 }
-.content .noBullets img {
+.content .no_bullets img {
   margin: 5px;
   margin-top: 2px;
   vertical-align: middle;
 }
-.content .withIcons {
+.content .with_icons {
   margin: 0px auto;
   padding: 0px 15px;
 }
@@ -129,11 +129,16 @@ a {
   color: #333;
   margin: 5px 0px;
 }
-.content .logo {
-  display: inline;
-  margin: 0px 7px 0px 3px;
+.content .left li.logo {
+  margin-left: 2px;
   width: 16px;
   height: 16px;
+}
+.content .left li.logo a {
+  margin-left: 25px;
+}
+.content .right li.logo strong {
+  margin-left: 25px;
 }
 .content .aboutme {
   background: url(../img/logos.png) -2px -2px no-repeat;
