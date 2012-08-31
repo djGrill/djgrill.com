@@ -1,11 +1,12 @@
 # djgrill.com
 
 ### About the site:
-This is my personal website, which is currently hosted on [Heroku](http://djgrill.herokuapp.com). The final public domain will be **[djgrill.com](http://djgrill.com)**.
+This is my personal website, which is currently hosted on [Heroku](http://djgrill.herokuapp.com). The public domain is **[djgrill.com](http://djgrill.com)**.
 
 ### About the repository:
 - The repository's master branch is always syncronized with the Heroku's master branch.
 - The repository's dev branch is always the latest version of the site (normally ahead the master branch).
+- The repository's bootstrap branch is referred to the upcoming new version of the app's design.
 - All other branches are local.
 
 ### Local repositories:
