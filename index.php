@@ -32,12 +32,12 @@
     <div id="nav">
       <ul>
         <li><a onclick="showAbout()" class="item about selected">About</a></li>
-        <li><a href="http://blog.djgrill.com" target="_blank" class="item external">Bits</a></li>
+        <li><a href="http://blog.djgrill.com" target="_blank" class="item external">Bits<span></span></a></li>
         <li><a onclick="showContact()" class="item contact">Contact</a></li>
         <li><a onclick="showDeveloper()" class="item developer">Developer</a></li>
         <li><a onclick="showExperience()" class="item experience">Experience</a></li>
-        <li><a href="http://facebook.com/djgrill" target="_blank" class="item external">Facebook</a></li>
-        <li><a href="https://github.com/djGrill" target="_blank" class="item external">GitHub</a></li>
+        <li><a href="http://facebook.com/djGrill" target="_blank" class="item external">Facebook<span></span></a></li>
+        <li><a href="https://github.com/djGrill" target="_blank" class="item external">GitHub<span></span></a></li>
       </ul>
     </div>
 
@@ -65,7 +65,7 @@
 
     <div id="contact" class="content">
       <div class="left">
-        <p>Send an email to <strong>djgrill [at] gmail [dot] com</strong> if you'd like to:</p>
+        <p>You can contact David anytime to:</p>
         <ul>
           <li>Say hi.</li>
           <li>Talk about a job vacancy.</li>
@@ -73,23 +73,23 @@
           <li>Invite him to speak at your event or write for your publication.</li>
           <li>Give him feedback about his website.</li>
         </ul>
-        <p>You can find him on the following Social Networks:</p>
-        <ul class="noBullets withIcons">
-          <li><div class="divLogo logoTwitter">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://twitter.com/djgrill/" target="_blank">Twitter</a></li>
-          <li><div class="divLogo logoFoursquare">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
-          <li><div class="divLogo logoMiso">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
-          <li><div class="divLogo logoLinkedIn">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
-          <li><div class="divLogo logoGplus">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
-          <li><div class="divLogo logoYouTube">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
-          <li><div class="divLogo logoFormspring">&nbsp;&nbsp;&nbsp;&nbsp;</div><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
+        <p>Contact info:</p>
+        <ul class="no_bullets with_icons">
+          <li class="logo gmail"><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
+          <li class="logo skype"><strong>Skype:</strong> davidgrillidiaz</li>
         </ul>
       </div>
 
       <div class="right">
-        <p>Or you can also contact him on any of the following IM services:</p>
-        <ul class="noBullets withIcons">
-          <li class="icon"><div class="divLogo logoGtalk">&nbsp;&nbsp;&nbsp;&nbsp;</div><strong>Google Talk:</strong> djgrill [at] gmail [dot] com</li>
-          <li class="icon"><div class="divLogo logoSkype">&nbsp;&nbsp;&nbsp;&nbsp;</div><strong>Skype:</strong> davidgrillidiaz</li>
+        <p>You can also find him on the following Social Networks:</p>
+        <ul class="no_bullets with_icons">
+          <li class="logo twitter"><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
+          <li class="logo foursquare"><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
+          <li class="logo miso"><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
+          <li class="logo linkedin"><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
+          <li class="logo googleplus"><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
+          <li class="logo youtube"><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
+          <li class="logo formspring"><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
         </ul>
       </div>
     </div>
@@ -144,13 +144,12 @@
     <div class="lnsep"></div>
 
     <div id="footer">
-      <span>David Grilli&nbsp;&copy;&nbsp;2012</span>
-      <table border="0" align="right">
-        <tr>
-          <td align="center" width="34"><a href="http://twitter.com/djgrill/" target="_blank"><div class="logoTwitter"></div></a></td>
-          <td align="center" width="34"><a href="http://linkedin.com/in/djgrill/" target="_blank"><div class="logoLinkedIn"></div></a></td>
-        </tr>
-      </table>
+      <div id="copy">David Grilli&nbsp;&copy;&nbsp;2012</div>
+      <div id="social">
+        <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
+        <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
+        <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
+      </div>
     </div>
   </div>
 
