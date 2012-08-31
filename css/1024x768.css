@@ -209,6 +209,10 @@ a {
   display: block;
 }
 
+#about .right span {
+  margin-right: 20px;
+}
+
 #contact,
 #developer,
 #experience {
