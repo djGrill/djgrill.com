@@ -65,7 +65,7 @@
 
     <div id="contact" class="content">
       <div class="left">
-        <p>Send an email to <strong>djgrill [at] gmail [dot] com</strong> if you'd like to:</p>
+        <p>You can contact David anytime to:</p>
         <ul>
           <li>Say hi.</li>
           <li>Talk about a job vacancy.</li>
@@ -73,7 +73,15 @@
           <li>Invite him to speak at your event or write for your publication.</li>
           <li>Give him feedback about his website.</li>
         </ul>
-        <p>You can find him on the following Social Networks:</p>
+        <p>Contact info:</p>
+        <ul class="no_bullets with_icons">
+          <li class="logo gmail"><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
+          <li class="logo skype"><strong>Skype:</strong> davidgrillidiaz</li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <p>You can also find him on the following Social Networks:</p>
         <ul class="no_bullets with_icons">
           <li class="logo twitter"><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
           <li class="logo foursquare"><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
@@ -82,14 +90,6 @@
           <li class="logo googleplus"><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
           <li class="logo youtube"><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
           <li class="logo formspring"><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
-        </ul>
-      </div>
-
-      <div class="right">
-        <p>Or you can also contact him on any of the following IM services:</p>
-        <ul class="no_bullets with_icons">
-          <li class="logo googletalk"><strong>Google Talk:</strong> djgrill [at] gmail [dot] com</li>
-          <li class="logo skype"><strong>Skype:</strong> davidgrillidiaz</li>
         </ul>
       </div>
     </div>
