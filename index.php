@@ -74,21 +74,21 @@
         </ul>
         <p>Contact info:</p>
         <ul class="no_bullets with_icons">
-          <li class="logo gmail"><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
-          <li class="logo skype"><strong>Skype:</strong> davidgrillidiaz</li>
+          <li><span class="logo gmail"></span><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
+          <li><span class="logo skype"></span><strong>Skype:</strong> davidgrillidiaz</li>
         </ul>
       </div>
 
       <div class="right">
         <p>You can also find him on the following Social Networks:</p>
         <ul class="no_bullets with_icons">
-          <li class="logo twitter"><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
-          <li class="logo foursquare"><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
-          <li class="logo miso"><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
-          <li class="logo linkedin"><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
-          <li class="logo googleplus"><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
-          <li class="logo youtube"><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
-          <li class="logo formspring"><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
+          <li><span class="logo twitter"></span><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
+          <li><span class="logo foursquare"></span><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
+          <li><span class="logo miso"></span><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
+          <li><span class="logo linkedin"></span><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
+          <li><span class="logo googleplus"></span><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
+          <li><span class="logo youtube"></span><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
+          <li><span class="logo formspring"></span><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
         </ul>
       </div>
     </div>

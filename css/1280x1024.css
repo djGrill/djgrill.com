@@ -140,16 +140,12 @@ a {
   color: #333;
   margin: 5px 0px;
 }
-.content .right li.logo,
-.content .left li.logo {
-  height: 16px;
-}
-.content .right li.logo {
+.content .right span.logo,
+.content .left span.logo {
+  display: inline-block;
   width: 16px;
-}
-.content .right li.logo a,
-.content .left li.logo strong {
-  margin-left: 25px;
+  height: 16px;
+  margin-right: 10px;
 }
 .content .aboutme {
   background: url(../img/icons.png) -2px -2px no-repeat;
@@ -198,10 +194,9 @@ a {
 }
 
 .content .right {
-  width: 500px;
+  width: auto;
   margin-left: 600px;
   padding: 30px;
-  padding-left: 0px;
   display: block;
 }
 
