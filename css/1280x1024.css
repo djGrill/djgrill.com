@@ -140,10 +140,12 @@ a {
   color: #333;
   margin: 5px 0px;
 }
-.content .right li.logo {
-  margin-left: 2px;
-  width: 16px;
+.content .right li.logo,
+.content .left li.logo {
   height: 16px;
+}
+.content .right li.logo {
+  width: 16px;
 }
 .content .right li.logo a,
 .content .left li.logo strong {
