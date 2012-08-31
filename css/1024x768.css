@@ -190,7 +190,6 @@ a {
 .content .left {
   width: 460px; /* .45 */
   padding: 20px;
-  padding-bottom: 5px;
   display: block;
   float: left;
 }
@@ -204,7 +203,7 @@ a {
   width: 350px;
   margin-left: 500px; /* .4 */
   padding: 20px;
-  padding-bottom: 5px;
+  padding-left: 0px;
   display: block;
 }
 
