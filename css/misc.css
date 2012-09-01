@@ -44,6 +44,10 @@ a:hover {
   -moz-box-shadow: none;
 }
 
+#about .span5 span {
+  margin-right: 20px;
+}
+
 #contact,
 #developer,
 #experience {
