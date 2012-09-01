@@ -9,6 +9,9 @@ a:hover {
 ul.with_icons {
   margin-left: 5px;
 }
+ul.no_bullets {
+  list-style-type: none;
+}
 
 .cool_red {
   color: #d14836;
@@ -20,12 +23,8 @@ ul.with_icons {
   margin: 0px auto 5px;
 }
 
-.no_bullets {
-  list-style-type: none;
-}
-
 .navbar .brand {
-  font-family: "Maven Pro", helvetica, arial, sans-serif, verdana;
+  font-family: "Maven Pro", "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 30px;
 }
 
@@ -36,6 +35,20 @@ ul.with_icons {
 .navbar .nav > li a:hover {
   color: #555;
   background-color: #eee;
+}
+.navbar .nav > li a.external {
+  padding-right: 5px;
+}
+.navbar .nav > li a.external span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 3px;
+}
+.navbar .nav > li a.external:hover span {
+  background: #eee url(../img/icons.png) -2px -82px no-repeat;
 }
 .navbar .nav > li.active a:hover {
   color: #d14836;
