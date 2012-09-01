@@ -10,35 +10,50 @@
   <meta name="keywords" content="david,grilli,geek,fun,web,software,developer,venezuela,guayana,ucab,enschede,netherlands,computer,engineering,google,gtug,gdg,gamer,videogame,djgrill,freelance,freelancer,php" />
   <meta name="robots" content="NOODP,NOYDIR" />
   <meta itemprop="image" content="https://lh5.googleusercontent.com/-n6ybEefGnKY/TrtAOpcDRQI/AAAAAAAAomI/UgcqHVm8HEU/s416/DGsmile.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/misc.css" />
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro:regular,bold&amp;v2" />
   <link rel="icon" type="image/x-ico" href="img/favicon.ico" />
   <link rel="shortcut icon" type="image/x-ico" href="img/favicon.ico" />
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
 </head>
 
 <body>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar">1</span>
+          <span class="icon-bar">2</span>
+          <span class="icon-bar">3</span>
+        </a>
+
+        <a class="brand" href>dav<span class="cool_red">id</span>grilli</a>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active about"><a onclick="showAbout()">About</a></li>
+            <li><a href="http://blog.djgrill.com" target="_blank">Bits</a></li>
+            <li class="contact"><a onclick="showContact()">Contact</a></li>
+            <li class="developer"><a onclick="showDeveloper()">Developer</a></li>
+            <li class="experience"><a onclick="showExperience()">Experience</a></li>
+            <li><a href="http://facebook.com/djGrill" target="_blank">Facebook</a></li>
+            <li><a href="https://github.com/djGrill" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div id="wrapper">
     <div id="lan">
       <span id="lanEN" class="selected">en</span>
       <span>/</span>
       <span id="lanES">es</span>
-    </div>
-
-    <div id="header">
-      <h1>dav<span class="coolRed">id</span>grilli</h1>
-    </div>
-
-    <div id="nav">
-      <ul>
-        <li><a onclick="showAbout()" class="item about selected">About</a></li>
-        <li><a href="http://blog.djgrill.com" target="_blank" class="item external">Bits<span></span></a></li>
-        <li><a onclick="showContact()" class="item contact">Contact</a></li>
-        <li><a onclick="showDeveloper()" class="item developer">Developer</a></li>
-        <li><a onclick="showExperience()" class="item experience">Experience</a></li>
-        <li><a href="http://facebook.com/djGrill" target="_blank" class="item external">Facebook<span></span></a></li>
-        <li><a href="https://github.com/djGrill" target="_blank" class="item external">GitHub<span></span></a></li>
-      </ul>
     </div>
 
     <div class="lnsep"></div>

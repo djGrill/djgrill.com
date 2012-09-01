@@ -1,46 +1,31 @@
-function getcss(cssfile) {
-  loadcss = document.createElement("link");
-  loadcss.setAttribute("rel", "stylesheet");
-  loadcss.setAttribute("type", "text/css");
-  loadcss.setAttribute("href", cssfile);
-  document.getElementsByTagName("head")[0].appendChild(loadcss);
-}
-
-if (screen.width <= "800")
-  getcss("css/800x600.css");
-else if (screen.width > "800" && screen.width <= "1024")
-  getcss("css/1024x768.css");
-else
-  getcss("css/1280x1024.css");
-
 function showAbout() {
   $(".content").hide();
-  $(".item").removeClass("selected");
+  $(".navbar .nav > li").removeClass("active");
   $("#about").show();
-  $(".item.about").addClass("selected");
+  $(".navbar .nav > li.about").addClass("active");
   document.title = "About - David Grilli";
 }
 
 function showContact() {
   $(".content").hide();
-  $(".item").removeClass("selected");
+  $(".navbar .nav > li").removeClass("active");
   $("#contact").show();
-  $(".item.contact").addClass("selected");
+  $(".navbar .nav > li.contact").addClass("active");
   document.title = "Contact - David Grilli";
 }
 
 function showDeveloper() {
   $(".content").hide();
-  $(".item").removeClass("selected");
+  $(".navbar .nav > li").removeClass("active");
   $("#developer").show();
-  $(".item.developer").addClass("selected");
+  $(".navbar .nav > li.developer").addClass("active");
   document.title = "Developer - David Grilli";
 }
 
 function showExperience() {
   $(".content").hide();
-  $(".item").removeClass("selected");
+  $(".navbar .nav > li").removeClass("active");
   $("#experience").show();
-  $(".item.experience").addClass("selected");
+  $(".navbar .nav > li.experience").addClass("active");
   document.title = "Experience - David Grilli";
 }

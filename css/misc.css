@@ -1,0 +1,31 @@
+.navbar .brand {
+  font-family: "Maven Pro", helvetica, arial, sans-serif, verdana;
+  font-size: 30px;
+}
+
+.navbar .nav > li a {
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar .nav > li a:hover {
+  color: #555;
+  background-color: #eee;
+}
+.navbar .nav > li.active a:hover {
+  color: #d14836;
+  background-color: #eee;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.navbar .nav > li.active a {
+  color: #d14836;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.cool_red {
+  color: #d14836;
+}
