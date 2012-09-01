@@ -6,6 +6,10 @@ a:hover {
   font-weight: bold;
 }
 
+ul.with_icons {
+  margin-left: 5px;
+}
+
 .cool_red {
   color: #d14836;
 }
@@ -14,6 +18,10 @@ a:hover {
   width: 100%;
   border-bottom: 1px solid #dadada;
   margin: 0px auto 5px;
+}
+
+.no_bullets {
+  list-style-type: none;
 }
 
 .navbar .brand {
@@ -52,6 +60,47 @@ a:hover {
 #developer,
 #experience {
   display: none;
+}
+
+span.logo {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+span.logo.aboutme {
+  background: url(../img/icons.png) -2px -2px no-repeat;
+}
+span.logo.facebook {
+  background: url(../img/icons.png) -22px -2px no-repeat;
+}
+span.logo.formspring {
+  background: url(../img/icons.png) -42px -2px no-repeat;
+}
+span.logo.foursquare {
+  background: url(../img/icons.png) -2px -22px no-repeat;
+}
+span.logo.googleplus {
+  background: url(../img/icons.png) -22px -22px no-repeat;
+}
+span.logo.linkedin {
+  background: url(../img/icons.png) -2px -42px no-repeat;
+}
+span.logo.miso {
+  background: url(../img/icons.png) -22px -42px no-repeat;
+}
+span.logo.twitter {
+  background: url(../img/icons.png) -2px -62px no-repeat;
+}
+span.logo.youtube {
+  background: url(../img/icons.png) -22px -62px no-repeat;
+}
+span.logo.gmail {
+  background: url(../img/icons.png) -42px -22px no-repeat;
+}
+span.logo.skype {
+  background: url(../img/icons.png) -42px -42px no-repeat;
 }
 
 .footer {
