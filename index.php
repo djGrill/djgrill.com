@@ -49,35 +49,33 @@
     </div>
   </div>
 
-  <div id="wrapper">
-    <div id="lan">
-      <span id="lanEN" class="selected">en</span>
-      <span>/</span>
-      <span id="lanES">es</span>
+  <div id="lan" style="display: none">
+    <span id="lanEN" class="selected">en</span>
+    <span>/</span>
+    <span id="lanES">es</span>
+  </div>
+
+  <div id="about" class="row-fluid">
+    <div class="span1">&nbsp;</div>
+    <div class="span7">
+      <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and always loves to learn new things.</p>
+      <br />
+      <p>He studied Computer Engineering at <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and coursed the CCNA career certification at Cisco Networking Academy. He was also the manager of <a href="http://guayana.gtugs.org/" target="_blank">Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
+      <br />
+      <p>When David was in High School, he showed a notable interest in Basic Sciences (particularly Math and Physics); but it wasn't until he began his undergraduate studies when he discovered his passion for <a href="http://www.codecademy.com" target="_blank">Programming</a>.</p>
+      <br />
+      <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, playing videogames and hanging out with his family and friends.</p>
     </div>
 
-    <div class="lnsep"></div>
-
-    <div id="about" class="content">
-      <div class="left">
-        <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and always loves to learn new things.</p>
-        <br/>
-        <p>He studied Computer Engineering at <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and coursed the CCNA career certification at Cisco Networking Academy. He was also the manager of <a href="http://guayana.gtugs.org/" target="_blank">Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
-        <br/>
-        <p>When David was in High School, he showed a notable interest in Basic Sciences (particularly Math and Physics); but it wasn't until he began his undergraduate studies when he discovered his passion for <a href="http://www.codecademy.com" target="_blank">Programming</a>.</p>
-        <br/>
-        <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, playing videogames and hanging out with his family and friends.</p>
-      </div>
-
-      <div class="right">
-        <a href="https://twitter.com/djGrill" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
-        <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        <span></span>
-        <g:plusone size="medium"></g:plusone>
-      </div>
+    <div class="span4">
+      <a href="https://twitter.com/djGrill" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
+      <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <span></span>
+      <g:plusone size="medium"></g:plusone>
     </div>
+  </div>
 
-    <div id="contact" class="content">
+    <div id="contact" class="content" style="display: none">
       <div class="left">
         <p>You can contact David anytime to:</p>
         <ul>
@@ -108,7 +106,7 @@
       </div>
     </div>
 
-    <div id="developer" class="content">
+    <div id="developer" class="content" style="display: none">
       <div class="left">
         <p>David has 5+ years of Software Development experience, and has worked with the following technologies:</p>
         <ul>
@@ -137,7 +135,7 @@
       </div>
     </div>
 
-    <div id="experience" class="content">
+    <div id="experience" class="content" style="display: none">
       <div class="left">
         <p>David has worked as a:</p>
           <ul>
@@ -155,11 +153,12 @@
       </div>
     </div>
 
+  <div class="navbar navbar-fixed-bottom footer">
     <div class="lnsep"></div>
-
-    <div id="footer">
-      <div id="copy">David Grilli&nbsp;&copy;&nbsp;2012</div>
-      <div id="social">
+    <div class="row">
+      <div class="span1">&nbsp;</div>
+      <div class="span7">David Grilli&nbsp;&copy;&nbsp;2012</div>
+      <div class="span3 social">
         <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
         <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
         <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>

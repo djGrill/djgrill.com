@@ -1,3 +1,13 @@
+.cool_red {
+  color: #d14836;
+}
+
+.lnsep {
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  margin: 0px auto 5px;
+}
+
 .navbar .brand {
   font-family: "Maven Pro", helvetica, arial, sans-serif, verdana;
   font-size: 30px;
@@ -26,6 +36,43 @@
   -moz-box-shadow: none;
 }
 
-.cool_red {
-  color: #d14836;
+.footer {
+  color: gray;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0px;
+}
+.footer .social {
+  float: right;
+}
+.footer .social a {
+  margin-right: 7px;
+  opacity: 0.4;
+  filter: alpha(opacity = 40);
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+  filter: alpha(opacity = 90);
+}
+.footer .social span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.footer .social span.twitter {
+  background: url(../img/icons.png) -2px -96px no-repeat;
+}
+.footer .social span.linkedin {
+  background: url(../img/icons.png) -31px -96px no-repeat;
+}
+.footer .social span.github {
+  background: url(../img/icons.png) -2px -125px no-repeat;
 }
