@@ -1,3 +1,11 @@
+a,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
 .cool_red {
   color: #d14836;
 }
@@ -34,6 +42,12 @@
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+}
+
+#contact,
+#developer,
+#experience {
+  display: none;
 }
 
 .footer {

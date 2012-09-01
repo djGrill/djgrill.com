@@ -1,5 +1,5 @@
 function showAbout() {
-  $(".content").hide();
+  $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
   $("#about").show();
   $(".navbar .nav > li.about").addClass("active");
@@ -7,7 +7,7 @@ function showAbout() {
 }
 
 function showContact() {
-  $(".content").hide();
+  $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
   $("#contact").show();
   $(".navbar .nav > li.contact").addClass("active");
@@ -15,7 +15,7 @@ function showContact() {
 }
 
 function showDeveloper() {
-  $(".content").hide();
+  $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
   $("#developer").show();
   $(".navbar .nav > li.developer").addClass("active");
@@ -23,7 +23,7 @@ function showDeveloper() {
 }
 
 function showExperience() {
-  $(".content").hide();
+  $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
   $("#experience").show();
   $(".navbar .nav > li.experience").addClass("active");
