@@ -58,11 +58,11 @@
   <div id="about" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
-      <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and always loves to learn new things.</p>
+      <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands, Europe, Earth, Milky Way, Universe, Multiverse. He's passionate about technology, user experience and web development; and loves learning and doing.</p>
       <br />
-      <p>He studied Computer Engineering at <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and coursed the CCNA career certification at Cisco Networking Academy. He was also the manager of <a href="http://guayana.gtugs.org/" target="_blank">Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
+      <p>He studied Computer Engineering at <a href="http://www.ucab.edu.ve/" target="_blank">UCAB</a> and coursed the CCNA career certification at <a href="http://cisco.netacad.net/" target="_blank">Cisco Networking Academy</a>. He was also the manager of <a href="http://guayana.gtugs.org/" target="_blank">Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
       <br />
-      <p>When David was in High School, he showed a notable interest in Basic Sciences (particularly Math and Physics); but it wasn't until he began his undergraduate studies when he discovered his passion for <a href="http://www.codecademy.com" target="_blank">Programming</a>.</p>
+      <p>When in High School, David showed a notable interest in Basic Sciences; and discovered his passion for <a href="http://www.codecademy.com" target="_blank">Programming</a> during his first year at the University.</p>
       <br />
       <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, playing videogames and hanging out with his family and friends.</p>
     </div>
