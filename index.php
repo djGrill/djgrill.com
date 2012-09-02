@@ -34,7 +34,7 @@
 
         <a class="brand" href>dav<span class="cool_red">id</span>grilli</a>
 
-        <div class="nav-collapse">
+        <div id="navmenu" class="nav-collapse">
           <ul class="nav">
             <li class="active about"><a onclick="showAbout()">About</a></li>
             <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
