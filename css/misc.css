@@ -6,14 +6,14 @@ a:hover {
   font-weight: bold;
 }
 
-ul.with_icons {
+ul.with-icons {
   margin-left: 5px;
 }
-ul.no_bullets {
+ul.no-bullets {
   list-style-type: none;
 }
 
-.cool_red {
+.cool-red {
   color: #d14836;
 }
 
