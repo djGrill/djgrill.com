@@ -76,6 +76,13 @@ ul.no_bullets {
   margin-right: 20px;
 }
 
+#about,
+#contact,
+#developer,
+#experience {
+  /*margin-top: 60px;*/
+}
+
 #contact,
 #developer,
 #experience {
