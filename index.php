@@ -140,7 +140,7 @@
   <div id="experience" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
-      <p>David has worked as a:</p>
+      <p>David has worked as:</p>
       <ul>
         <li>Freelance Software Developer.</li>
         <li>Freelance Professor of Programming, Calculus and Physics.</li>
