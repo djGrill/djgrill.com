@@ -24,7 +24,7 @@
 
 <body>
   <div class="navbar">
-    <div class="navbar-inner">
+    <div class="navbar-inner navbar-fixed-top">
       <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
@@ -37,12 +37,12 @@
         <div class="nav-collapse">
           <ul class="nav">
             <li class="active about"><a onclick="showAbout()">About</a></li>
-            <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span></span></a></li>
+            <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
             <li class="contact"><a onclick="showContact()">Contact</a></li>
             <li class="developer"><a onclick="showDeveloper()">Developer</a></li>
             <li class="experience"><a onclick="showExperience()">Experience</a></li>
-            <li><a class="external" href="http://facebook.com/djGrill" target="_blank">Facebook<span></span></a></li>
-            <li><a class="external" href="https://github.com/djGrill" target="_blank">GitHub<span></span></a></li>
+            <li><a class="external" href="http://facebook.com/djGrill" target="_blank">Facebook<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
+            <li><a class="external" href="https://github.com/djGrill" target="_blank">GitHub<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
           </ul>
         </div>
       </div>
@@ -159,10 +159,10 @@
 
   <div class="navbar navbar-fixed-bottom footer">
     <div class="lnsep"></div>
-    <div class="row">
-      <div class="span1">&nbsp;</div>
+    <div class="row-fluid">
+      <div class="span2" style="min-height: 0px; height: 0px;">&nbsp;</div>
       <div class="span7">David Grilli&nbsp;&copy;&nbsp;2012</div>
-      <div class="span3 social">
+      <div class="span2 social">
         <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
         <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
         <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
