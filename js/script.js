@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  $(".nav-collapse .nav > li > a").click(function() {
+    $(".navbar .nav-collapse.collapse").css("height","0px");
+  });
+});
+
 function showAbout() {
   $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
