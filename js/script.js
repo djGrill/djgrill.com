@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  $(".nav-collapse .nav > li > a").click(function() {
-    $(".navbar .nav-collapse.collapse").css("height","0px");
+  $(".nav-collapse .nav > li > a").click(function(e) {
+    e.preventDefault();
+    // id is used because the footer is also a .navbar
+    $("#navmenu").css("height", "0px");
+    $(".footer .row-fluid").show();
   });
 });
 
