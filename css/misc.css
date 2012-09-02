@@ -1,0 +1,173 @@
+a,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+ul.with_icons {
+  margin-left: 5px;
+}
+ul.no_bullets {
+  list-style-type: none;
+}
+
+.cool_red {
+  color: #d14836;
+}
+
+.lnsep {
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  margin: 0px auto 5px;
+}
+
+.navbar .brand {
+  font-family: "Maven Pro", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 30px;
+}
+
+.navbar .nav > li a {
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+.navbar .nav > li a:hover {
+  color: #555;
+  background-color: #eee;
+}
+.navbar .nav > li a.external {
+  padding-right: 5px;
+}
+.navbar .nav > li a.external span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 3px;
+}
+.navbar .nav > li a.external span.hidden-desktop {
+  background: #eee url(../img/icons.png) -2px -82px no-repeat;
+}
+.navbar .nav > li a.external:hover span.visible-desktop {
+  background: #eee url(../img/icons.png) -2px -82px no-repeat;
+}
+.navbar .nav > li.active a:hover {
+  color: #d14836;
+  background-color: #eee;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.navbar .nav > li.active a {
+  color: #d14836;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#about .span5 {
+  text-align: center;
+}
+#about .span5 span {
+  margin-right: 20px;
+}
+
+#about,
+#contact,
+#developer,
+#experience {
+  /*margin-top: 60px;*/
+}
+
+#contact,
+#developer,
+#experience {
+  display: none;
+}
+
+span.logo {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+span.logo.aboutme {
+  background: url(../img/icons.png) -2px -2px no-repeat;
+}
+span.logo.facebook {
+  background: url(../img/icons.png) -22px -2px no-repeat;
+}
+span.logo.formspring {
+  background: url(../img/icons.png) -42px -2px no-repeat;
+}
+span.logo.foursquare {
+  background: url(../img/icons.png) -2px -22px no-repeat;
+}
+span.logo.googleplus {
+  background: url(../img/icons.png) -22px -22px no-repeat;
+}
+span.logo.linkedin {
+  background: url(../img/icons.png) -2px -42px no-repeat;
+}
+span.logo.miso {
+  background: url(../img/icons.png) -22px -42px no-repeat;
+}
+span.logo.twitter {
+  background: url(../img/icons.png) -2px -62px no-repeat;
+}
+span.logo.youtube {
+  background: url(../img/icons.png) -22px -62px no-repeat;
+}
+span.logo.gmail {
+  background: url(../img/icons.png) -42px -22px no-repeat;
+}
+span.logo.skype {
+  background: url(../img/icons.png) -42px -42px no-repeat;
+}
+
+.footer {
+  color: gray;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+}
+.footer div > div {
+  text-align: center;
+}
+.footer .social {
+  float: right;
+}
+.footer .social a {
+  margin-right: 7px;
+  opacity: 0.4;
+  filter: alpha(opacity = 40);
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+  filter: alpha(opacity = 90);
+}
+.footer .social span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.footer .social span.twitter {
+  background: url(../img/icons.png) -2px -96px no-repeat;
+}
+.footer .social span.github {
+  background: url(../img/icons.png) -31px -96px no-repeat;
+}
+.footer .social span.linkedin {
+  background: url(../img/icons.png) -2px -125px no-repeat;
+}
