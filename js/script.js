@@ -1,3 +1,18 @@
+$(document).ready(function() {
+  $(".brand").hover(
+    function() {
+      $(".brand span.id").removeClass("cool-red");
+      $(".brand span.d").addClass("cool-red");
+      $(".brand span.g").addClass("cool-red");
+    },
+    function() {
+      $(".brand span.id").addClass("cool-red");
+      $(".brand span.d").removeClass("cool-red");
+      $(".brand span.g").removeClass("cool-red");
+    }
+  );
+});
+
 function restoreFooter() {
   // id is used because the footer is also a .navbar
   $(".footer .row-fluid").show();

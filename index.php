@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </a>
 
-        <a class="brand" href>dav<span class="cool_red">id</span>grilli</a>
+        <a class="brand" onclick="showAbout()"><span class="d">d</span>av<span class="cool-red id">id</span><span class="g">g</span>rilli</a>
 
         <div id="navmenu" class="nav-collapse">
           <ul class="nav">
@@ -87,7 +87,7 @@
         <li>Give him feedback about his website.</li>
       </ul>
       <p>Contact info:</p>
-      <ul class="no_bullets with_icons">
+      <ul class="no-bullets with-icons">
         <li><span class="logo gmail"></span><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
         <li><span class="logo skype"></span><strong>Skype:</strong> davidgrillidiaz</li>
       </ul>
@@ -95,7 +95,7 @@
 
     <div class="span5">
       <p>You can also find him on the following Social Networks:</p>
-      <ul class="no_bullets with_icons">
+      <ul class="no-bullets with-icons">
         <li><span class="logo twitter"></span><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
         <li><span class="logo foursquare"></span><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
         <li><span class="logo miso"></span><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
