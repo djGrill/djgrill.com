@@ -159,10 +159,10 @@
 
   <div class="navbar navbar-fixed-bottom footer">
     <div class="lnsep"></div>
-    <div class="row">
-      <div class="span1">&nbsp;</div>
+    <div class="row-fluid">
+      <div class="span2" style="min-height: 0px; height: 0px;">&nbsp;</div>
       <div class="span7">David Grilli&nbsp;&copy;&nbsp;2012</div>
-      <div class="span3 social">
+      <div class="span2 social">
         <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
         <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
         <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
