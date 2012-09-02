@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </a>
 
-        <a class="brand" href>dav<span class="cool_red">id</span>grilli</a>
+        <a class="brand" onclick="showAbout()">dav<span class="cool_red">id</span>grilli</a>
 
         <div id="navmenu" class="nav-collapse">
           <ul class="nav">
