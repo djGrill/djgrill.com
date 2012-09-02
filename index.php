@@ -24,7 +24,7 @@
 
 <body>
   <div class="navbar">
-    <div class="navbar-inner navbar-fixed-top">
+    <div class="navbar-inner">
       <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
@@ -158,9 +158,13 @@
 
   <div class="navbar navbar-fixed-bottom footer">
     <div class="lnsep"></div>
+
     <div class="row-fluid">
-      <div class="span2">David Grilli&nbsp;&copy;&nbsp;2012</div>
-      <div class="span2 social">
+      <div class="span12">David Grilli&nbsp;&copy;&nbsp;2012</div>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span12 social">
         <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
         <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
         <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
