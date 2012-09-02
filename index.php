@@ -17,9 +17,9 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro:regular,bold&amp;v2" />
   <link rel="icon" type="image/x-ico" href="img/favicon.ico" />
   <link rel="shortcut icon" type="image/x-ico" href="img/favicon.ico" />
+  <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
 </head>
 
 <body>
@@ -27,9 +27,9 @@
     <div class="navbar-inner">
       <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar">1</span>
-          <span class="icon-bar">2</span>
-          <span class="icon-bar">3</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </a>
 
         <a class="brand" href>dav<span class="cool_red">id</span>grilli</a>
