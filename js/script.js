@@ -1,15 +1,14 @@
-$(document).ready(function() {
-  $(".nav-collapse .nav > li > a").click(function(e) {
-    // id is used because the footer is also a .navbar
-    $(".footer .row-fluid").show();
-  });
-});
+function restoreFooter() {
+  // id is used because the footer is also a .navbar
+  $(".footer .row-fluid").show();
+}
 
 function showAbout() {
   $(".row-fluid").hide();
   $(".navbar .nav > li").removeClass("active");
   $("#about").show();
   $(".navbar .nav > li.about").addClass("active");
+  restoreFooter();
   document.title = "About - David Grilli";
 }
 
@@ -18,6 +17,7 @@ function showContact() {
   $(".navbar .nav > li").removeClass("active");
   $("#contact").show();
   $(".navbar .nav > li.contact").addClass("active");
+  restoreFooter();
   document.title = "Contact - David Grilli";
 }
 
@@ -26,6 +26,7 @@ function showDeveloper() {
   $(".navbar .nav > li").removeClass("active");
   $("#developer").show();
   $(".navbar .nav > li.developer").addClass("active");
+  restoreFooter();
   document.title = "Developer - David Grilli";
 }
 
@@ -34,5 +35,6 @@ function showExperience() {
   $(".navbar .nav > li").removeClass("active");
   $("#experience").show();
   $(".navbar .nav > li.experience").addClass("active");
+  restoreFooter();
   document.title = "Experience - David Grilli";
 }
