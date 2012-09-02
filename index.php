@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="css/misc.css" />
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro:regular,bold&amp;v2" />
-  <link rel="icon" type="image/x-ico" href="img/favicon.ico" />
-  <link rel="shortcut icon" type="image/x-ico" href="img/favicon.ico" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
