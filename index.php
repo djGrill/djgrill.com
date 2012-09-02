@@ -56,7 +56,7 @@
   </div>
 
   <div id="about" class="row-fluid">
-    <div class="span1">&nbsp;</div>
+    <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
       <p><strong>David Grilli</strong> is a Software Developer from Ciudad Guayana, Venezuela. He's passionate about innovative technologies and always loves to learn new things.</p>
       <br />
@@ -76,7 +76,7 @@
   </div>
 
   <div id="contact" class="row-fluid">
-    <div class="span1">&nbsp;</div>
+    <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
       <p>You can contact David anytime to:</p>
       <ul>
@@ -108,7 +108,7 @@
   </div>
 
   <div id="developer" class="row-fluid">
-    <div class="span1">&nbsp;</div>
+    <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
       <p>David has 5+ years of Software Development experience, and has worked with the following technologies:</p>
       <ul>
@@ -138,7 +138,7 @@
   </div>
 
   <div id="experience" class="row-fluid">
-    <div class="span1">&nbsp;</div>
+    <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div class="span6">
       <p>David has worked as a:</p>
       <ul>

@@ -131,7 +131,7 @@ span.logo.skype {
   position: fixed;
   bottom: 0px;
 }
-.footer div div {
+.footer div > div {
   text-align: center;
 }
 .footer .social {
