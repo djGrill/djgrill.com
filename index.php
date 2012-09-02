@@ -37,12 +37,12 @@
         <div class="nav-collapse">
           <ul class="nav">
             <li class="active about"><a onclick="showAbout()">About</a></li>
-            <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span></span></a></li>
+            <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
             <li class="contact"><a onclick="showContact()">Contact</a></li>
             <li class="developer"><a onclick="showDeveloper()">Developer</a></li>
             <li class="experience"><a onclick="showExperience()">Experience</a></li>
-            <li><a class="external" href="http://facebook.com/djGrill" target="_blank">Facebook<span></span></a></li>
-            <li><a class="external" href="https://github.com/djGrill" target="_blank">GitHub<span></span></a></li>
+            <li><a class="external" href="http://facebook.com/djGrill" target="_blank">Facebook<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
+            <li><a class="external" href="https://github.com/djGrill" target="_blank">GitHub<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
           </ul>
         </div>
       </div>

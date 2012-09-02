@@ -31,6 +31,7 @@ ul.no_bullets {
 .navbar .nav > li a {
   font-weight: bold;
   cursor: pointer;
+  display: inline-block;
 }
 .navbar .nav > li a:hover {
   color: #555;
@@ -47,7 +48,10 @@ ul.no_bullets {
   margin: 0px;
   margin-left: 3px;
 }
-.navbar .nav > li a.external:hover span {
+.navbar .nav > li a.external span.hidden-desktop {
+  background: #eee url(../img/icons.png) -2px -82px no-repeat;
+}
+.navbar .nav > li a.external:hover span.visible-desktop {
   background: #eee url(../img/icons.png) -2px -82px no-repeat;
 }
 .navbar .nav > li.active a:hover {
