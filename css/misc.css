@@ -93,6 +93,7 @@ span.logo {
   display: inline-block;
   height: 16px;
   width: 16px;
+  margin-bottom: -2px;
   margin-right: 10px;
 }
 
