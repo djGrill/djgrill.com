@@ -109,12 +109,13 @@
       <p>You can also find him on the following Social Networks:</p>
       <ul class="no-bullets with-icons">
         <li><span class="logo twitter"></span><a href="http://twitter.com/djGrill/" target="_blank">Twitter</a></li>
+        <li><span class="logo facebook"></span><a href="http://facebook.com/djGrill/" target="_blank">Facebook</a></li>
         <li><span class="logo foursquare"></span><a href="http://foursquare.com/djgrill/" target="_blank">Foursquare</a></li>
         <li><span class="logo miso"></span><a href="http://gomiso.com/u/djgrill/" target="_blank">Miso</a></li>
         <li><span class="logo linkedin"></span><a href="http://linkedin.com/in/djgrill/" target="_blank">LinkedIn</a></li>
         <li><span class="logo googleplus"></span><a href="http://profiles.google.com/djgrill/about/" target="_blank">Google+</a></li>
         <li><span class="logo youtube"></span><a href="http://youtube.com/djgrill/" target="_blank">YouTube</a></li>
-        <li><span class="logo formspring"></span><a href="http://formspring.me/djgrill" target="_blank">Formspring</a></li>
+        <li><span class="logo formspring"></span><a href="http://formspring.me/djgrill/" target="_blank">Formspring</a></li>
       </ul>
     </div>
   </div>
@@ -163,7 +164,7 @@
     </div>
 
     <div class="span5">
-      <p>He's currently working as a <a href="http://en.wikipedia.org/wiki/Web_developer" target="_blank">Web Developer</a> at an exciting Dutch startup.</p>
+      <p>He's currently working as a <a href="http://en.wikipedia.org/wiki/Web_developer/" target="_blank">Web Developer</a> at an exciting Dutch startup.</p>
       <p>If you think David could match a job vacancy at your company in the future, check the <a onclick="showContact()">Contact</a> section.</p>
     </div>
   </div>
