@@ -49,12 +49,12 @@
         <div id="navmenu" class="nav-collapse">
           <ul class="nav">
             <li class="active about"><a onclick="showAbout()" data-toggle="collapse" data-target=".nav-collapse">About</a></li>
-            <li><a class="external" href="http://blog.djgrill.com" target="_blank">Bits<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
+            <li><a class="external" href="http://blog.djgrill.com/" target="_blank" data-toggle="collapse" data-target=".nav-collapse">Bits<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
             <li class="contact"><a onclick="showContact()" data-toggle="collapse" data-target=".nav-collapse">Contact</a></li>
             <li class="developer"><a onclick="showDeveloper()" data-toggle="collapse" data-target=".nav-collapse">Developer</a></li>
             <li class="experience"><a onclick="showExperience()" data-toggle="collapse" data-target=".nav-collapse">Experience</a></li>
-            <li><a class="external" href="http://facebook.com/djGrill" target="_blank">Facebook<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
-            <li><a class="external" href="https://github.com/djGrill" target="_blank">GitHub<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
+            <li><a class="external" href="http://facebook.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse">Facebook<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
+            <li><a class="external" href="https://github.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse">GitHub<span class="visible-desktop"></span><span class="hidden-desktop"></span></a></li>
           </ul>
         </div>
       </div>
