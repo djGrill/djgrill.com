@@ -175,7 +175,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div class="span12">David Grilli&nbsp;&copy;&nbsp;2012</div>
+      <div class="span12">This page is <a href="https://github.com/djGrill/djgrill.com/" target="_blank">Open Source</a> - Last updated Sep 09, 2012</div>
     </div>
 
     <div class="row-fluid">
