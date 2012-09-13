@@ -77,9 +77,11 @@
       <p>When in High School, David showed a notable interest in Basic Sciences; and discovered his passion for <a href="http://www.codecademy.com" target="_blank">Programming</a> during his first year at the University.</p>
       <br />
       <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, throwing frisbee, playing videogames and hanging out with his family and friends.</p>
+      <br />
+      <p class="quote pull-right"><i>"I believe in technology<br />bringing people together"</i><br /><span class="pull-right">- David Grilli</span></p>
     </div>
 
-    <div class="span5">
+    <div class="social-buttons span5">
       <a href="https://twitter.com/djGrill" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
       <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <span></span>

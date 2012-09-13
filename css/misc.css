@@ -69,10 +69,16 @@ ul.no-bullets {
   -moz-box-shadow: none;
 }
 
-#about .span5 {
+#about p.quote {
   text-align: center;
 }
-#about .span5 span {
+#about p.quote span {
+  color: #777;
+}
+#about .social-buttons  {
+  text-align: center;
+}
+#about .social-buttons  span {
   margin-right: 20px;
 }
 
