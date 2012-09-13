@@ -78,7 +78,7 @@
       <br />
       <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, throwing frisbee, playing videogames and hanging out with his family and friends.</p>
       <br />
-      <p class="quote pull-right"><i>"I believe in technology<br />bringing people together"</i><br /><span class="pull-right">- David Grilli</span></p>
+      <p class="quote"><i>"I believe in technology<br />bringing people together"</i><br /><span>- David Grilli</span></p>
     </div>
 
     <div class="social-buttons span5">
