@@ -9,7 +9,7 @@
   <meta name="description" content="Web Developer from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands." />
   <meta name="keywords" content="david,grilli,geek,fun,web,software,developer,venezuela,guayana,ucab,enschede,netherlands,computer,engineering,google,gtug,gdg,gamer,videogame,djgrill,freelance,freelancer,php" />
   <meta name="robots" content="NOODP,NOYDIR" />
-  <meta itemprop="image" content="https://lh5.googleusercontent.com/-n6ybEefGnKY/TrtAOpcDRQI/AAAAAAAAomI/UgcqHVm8HEU/s416/DGsmile.png" />
+  <meta itemprop="image" content="http://djgrill.com/img/favicon100x100.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/misc.css" />
