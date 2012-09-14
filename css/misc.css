@@ -23,6 +23,10 @@ ul.no-bullets {
   margin: 0px auto 5px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .navbar .brand {
   font-family: "Maven Pro", "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 30px;
@@ -40,7 +44,7 @@ ul.no-bullets {
 .navbar .nav > li a.external {
   padding-right: 5px;
 }
-.navbar .nav > li a.external span {
+.navbar .nav > li a.external span.icon {
   display: inline-block;
   height: 10px;
   width: 10px;
