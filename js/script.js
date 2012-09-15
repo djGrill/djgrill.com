@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $.ajax({
+    url: "lan/en.json"
+  }).done(function(data) {
+    loadContent(data);
+  });
+
   $(".brand").hover(
     function() {
       $(".brand span.id").removeClass("cool-red");
@@ -11,7 +17,46 @@ $(document).ready(function() {
       $(".brand span.g").removeClass("cool-red");
     }
   );
+
+  $("#lan-es").click(function() {
+    $.ajax({
+      url: "lan/es.json"
+    }).done(function(data) {
+      $("#lan-es").addClass("active");
+      $("#lan-en").removeClass("active");
+      loadContent(data);
+    });
+  });
+
+  $("#lan-en").click(function() {
+    $.ajax({
+      url: "lan/en.json"
+    }).done(function(data) {
+      $("#lan-en").addClass("active");
+      $("#lan-es").removeClass("active");
+      loadContent(data);
+    });
+  });
 });
+
+function loadContent(data) {
+  $("#nav1").html(data.nav1);
+  $("#nav2").html(data.nav2);
+  $("#nav3").html(data.nav3);
+  $("#nav4").html(data.nav4);
+  $("#nav5").html(data.nav5);
+  $("#nav6").html(data.nav6);
+  $("#nav7").html(data.nav7);
+
+  $("#text1").html(data.text1);
+  $("#text2").html(data.text2);
+  $("#text3").html(data.text3);
+  $("#text4").html(data.text4);
+  $("#text5").html(data.text5);
+  $("#text6").html(data.text6);
+  $("#text7").html(data.text7);
+  $("#text8").html(data.text8);
+}
 
 $(document).keypress(function(e) {
   switch (e.which) {
