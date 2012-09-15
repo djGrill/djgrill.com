@@ -23,6 +23,10 @@ ul.no-bullets {
   margin: 0px auto 5px;
 }
 
+.active {
+  color: #d14836;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -71,6 +75,13 @@ ul.no-bullets {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+}
+
+#lan {
+  cursor: pointer;
+}
+#lan span.active {
+  font-weight: bold;
 }
 
 #about p.quote {
