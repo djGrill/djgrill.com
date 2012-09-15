@@ -58,9 +58,7 @@
           </ul>
 
           <div id="lan" class="pull-right">
-            <span id="lan-en" class="active">en</span>
-            <span>/</span>
-            <span id="lan-es">es</span>
+            <span id="lan-en" class="active">en</span>/<span id="lan-es">es</span>
           </div>
         </div>
       </div>
@@ -84,21 +82,18 @@
   <div id="contact" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text2" class="span6"></div>
-
     <div id="text3" class="span5"></div>
   </div>
 
   <div id="developer" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text4" class="span6"></div>
-
     <div id="text5" class="span5"></div>
   </div>
 
   <div id="experience" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text6" class="span6"></div>
-
     <div id="text7" class="span5"></div>
   </div>
 
