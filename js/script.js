@@ -1,7 +1,11 @@
+// global variable used for managing the pages' titles
+json_data = "";
+
 $(document).ready(function() {
   $.ajax({
     url: "lan/en.json"
   }).done(function(data) {
+    json_data = data;
     loadContent(data);
   });
 
@@ -24,7 +28,9 @@ $(document).ready(function() {
     }).done(function(data) {
       $("#lan-es").addClass("active");
       $("#lan-en").removeClass("active");
+      json_data = data;
       loadContent(data);
+      showAbout();
     });
   });
 
@@ -34,12 +40,16 @@ $(document).ready(function() {
     }).done(function(data) {
       $("#lan-en").addClass("active");
       $("#lan-es").removeClass("active");
+      json_data = data;
       loadContent(data);
+      showAbout();
     });
   });
 });
 
 function loadContent(data) {
+  $("title").html(data.title1);
+
   $("#nav1").html(data.nav1);
   $("#nav2").html(data.nav2);
   $("#nav3").html(data.nav3);
@@ -102,7 +112,7 @@ function showAbout() {
   $("#about").show();
   $(".navbar .nav > li.about").addClass("active");
   restoreFooter();
-  document.title = "About - David Grilli";
+  $("title").html(json_data.title1);
 }
 
 function showContact() {
@@ -111,7 +121,7 @@ function showContact() {
   $("#contact").show();
   $(".navbar .nav > li.contact").addClass("active");
   restoreFooter();
-  document.title = "Contact - David Grilli";
+  $("title").html(json_data.title2);
 }
 
 function showDeveloper() {
@@ -120,7 +130,7 @@ function showDeveloper() {
   $("#developer").show();
   $(".navbar .nav > li.developer").addClass("active");
   restoreFooter();
-  document.title = "Developer - David Grilli";
+  $("title").html(json_data.title3);
 }
 
 function showExperience() {
@@ -129,5 +139,5 @@ function showExperience() {
   $("#experience").show();
   $(".navbar .nav > li.experience").addClass("active");
   restoreFooter();
-  document.title = "Experience - David Grilli";
+  $("title").html(json_data.title4);
 }
