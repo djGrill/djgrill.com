@@ -16,29 +16,37 @@ $(document).ready(function() {
   );
 
   $("#lan-es").click(function() {
-    $.ajax({
-      url: "lan/es.json"
-    }).done(function(data) {
-      $("#lan-es").addClass("active");
-      $("#lan-en").removeClass("active");
-      json_data = data;
-      loadContent(data);
-      showAbout();
-    });
+    showSpanish();
   });
 
   $("#lan-en").click(function() {
-    $.ajax({
-      url: "lan/en.json"
-    }).done(function(data) {
-      $("#lan-en").addClass("active");
-      $("#lan-es").removeClass("active");
-      json_data = data;
-      loadContent(data);
-      showAbout();
-    });
+    showEnglish();
   });
 });
+
+function showEnglish() {
+  $.ajax({
+    url: "lan/en.json"
+  }).done(function(data) {
+    $("#lan-en").addClass("active");
+    $("#lan-es").removeClass("active");
+    json_data = data;
+    loadContent(data);
+    showAbout();
+  });
+}
+
+function showSpanish() {
+  $.ajax({
+    url: "lan/es.json"
+  }).done(function(data) {
+    $("#lan-es").addClass("active");
+    $("#lan-en").removeClass("active");
+    json_data = data;
+    loadContent(data);
+    showAbout();
+  });
+}
 
 function loadContent(data) {
   $("title").html(data.title1);
@@ -90,6 +98,14 @@ $(document).keypress(function(e) {
     case 71:
     case 103:
       window.open("https://github.com/djGrill/");
+    break;
+    case 78:
+    case 110:
+      showEnglish();
+    break;
+    case 83:
+    case 115:
+      showSpanish();
     break;
   }
 });

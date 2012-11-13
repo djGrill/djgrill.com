@@ -48,17 +48,17 @@
 
         <div id="navmenu" class="nav-collapse">
           <ul class="nav">
-            <li class="active about"><a onclick="showAbout()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav1"><span class='underline'>A</span>bout</span></a></li>
-            <li><a class="external" href="http://blog.djgrill.com/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav2"><span class='underline'>B</span>its</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
-            <li class="contact"><a onclick="showContact()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav3"><span class='underline'>C</span>ontact</span></a></li>
-            <li class="developer"><a onclick="showDeveloper()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav4"><span class='underline'>D</span>eveloper</span></a></li>
-            <li class="experience"><a onclick="showExperience()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav5"><span class='underline'>E</span>xperience</span></a></li>
-            <li><a class="external" href="http://facebook.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav6"><span class='underline'>F</span>acebook</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
-            <li><a class="external" href="https://github.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav7"><span class='underline'>G</span>itHub</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
+            <li class="active about"><a onclick="showAbout()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav1"><span class="underline">A</span>bout</span></a></li>
+            <li><a class="external" href="http://blog.djgrill.com/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav2"><span class="underline">B</span>its</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
+            <li class="contact"><a onclick="showContact()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav3"><span class="underline">C</span>ontact</span></a></li>
+            <li class="developer"><a onclick="showDeveloper()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav4"><span class="underline">D</span>eveloper</span></a></li>
+            <li class="experience"><a onclick="showExperience()" data-toggle="collapse" data-target=".nav-collapse"><span id="nav5"><span class="underline">E</span>xperience</span></a></li>
+            <li><a class="external" href="http://facebook.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav6"><span class="underline">F</span>acebook</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
+            <li><a class="external" href="https://github.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav7"><span class="underline">G</span>itHub</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
           </ul>
 
           <div id="lan" class="pull-right">
-            <span id="lan-en" class="active">en</span>/<span id="lan-es">es</span>
+            <span id="lan-en" class="active">e<span class="underline">n</span></span>/<span id="lan-es">e<span class="underline">s</span></span>
           </div>
         </div>
       </div>

@@ -86,7 +86,12 @@ ul.no-bullets {
   display: inline-block;
   margin: 0px 3px 0px;
 }
-#lan span:hover {
+#lan span.underline {
+  margin: 0px;
+  text-decoration: underline;
+}
+#lan span:hover,
+#lan span.underline:hover, {
   color: #555;
   background-color: #eee;
 }
@@ -108,13 +113,6 @@ ul.no-bullets {
 }
 #about .social-buttons  span {
   margin-right: 20px;
-}
-
-#about,
-#contact,
-#developer,
-#experience {
-  /*margin-top: 60px;*/
 }
 
 #contact,
