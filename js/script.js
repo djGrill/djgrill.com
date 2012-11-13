@@ -2,13 +2,6 @@
 json_data = "";
 
 $(document).ready(function() {
-  $.ajax({
-    url: "lan/en.json"
-  }).done(function(data) {
-    json_data = data;
-    loadContent(data);
-  });
-
   $(".brand").hover(
     function() {
       $(".brand span.id").removeClass("cool-red");
