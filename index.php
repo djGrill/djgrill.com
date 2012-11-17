@@ -70,7 +70,7 @@
     <div id="text1" class="span6">
       <p><strong>David Grilli</strong> is a Web Developer from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands, Europe, Earth, Milky Way, Universe, Multiverse. He's passionate about technology, user experience and web development; and loves learning and doing.</p>
       <br />
-      <p>He studied Computer Engineering at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a> and coursed the CCNA career certification at <a href='http://cisco.netacad.net/' target='_blank'>Cisco Networking Academy</a>. He was also the manager of <a href='http://guayana.gtugs.org/' target='_blank'>Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
+      <p>He studied Computer Engineering at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a> and <a href='http://guayanaweb.ucab.edu.ve/' target='_blank'>UCAB Guayana</a>, and coursed the CCNA career certification at <a href='http://cisco.netacad.net/' target='_blank'>Cisco Networking Academy</a>. He was also the manager of <a href='http://guayana.gtugs.org/' target='_blank'>Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
       <br />
       <p>When in High School, David showed a notable interest in Basic Sciences; and discovered his passion for <a href='http://www.codecademy.com' target='_blank'>Programming</a> during his first year at the University.</p>
       <br />
@@ -173,7 +173,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Nov 14, 2012</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Nov 17, 2012</div>
     </div>
 
     <div class="row-fluid">
