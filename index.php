@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/Person">
 
 <head>
-  <title>David Grilli</title>
+  <title>David Grilli (djGrill)</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
   <meta name="name" content="David Grilli" />
   <meta name="description" content="Web Developer (Ruby, Rails, PHP) from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands." />
