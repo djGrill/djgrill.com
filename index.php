@@ -164,7 +164,7 @@
         <li>Web Developer at <a href='http://bakedweb.net/' target='_blank'>Bakedweb</a>.</li>
         <li>Software Developer at <a href='http://4geeks.co/' target='_blank'>4Geeks</a>.</li>
         <li>Web Developer at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a>.</li>
-        <li>Web Developer at <a href='http://www.fasha.nl/' target='_blank'>Fasha</a>.</li>
+        <li>Web Developer at <a href='http://www.fasha.nl/' target='_blank'>Fasha</a> in Enschede, The Netherlands.</li>
       </ul>
     </div>
     <div id="text7" class="span5">
@@ -177,7 +177,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Mar 6, 2013</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Mar 13, 2013</div>
     </div>
 
     <div class="row-fluid">
