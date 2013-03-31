@@ -120,7 +120,7 @@
         <li><span class='logo foursquare'></span><a href='http://foursquare.com/djgrill/' target='_blank'>Foursquare</a></li>
         <li><span class='logo miso'></span><a href='http://gomiso.com/u/djgrill/' target='_blank'>Miso</a></li>
         <li><span class='logo youtube'></span><a href='http://youtube.com/djgrill/' target='_blank'>YouTube</a></li>
-        <li><span class='logo formspring'></span><a href='http://formspring.me/djgrill/' target='_blank'>Formspring</a></li>
+        <li><span class='logo tumblr'></span><a href='http://djgrill.tumblr.com/' target='_blank'>Tumblr</a></li>
       </ul>
     </div>
   </div>
@@ -184,6 +184,7 @@
     <div class="row-fluid">
       <div class="span12 social">
         <a href="http://twitter.com/djGrill/" target="_blank"><span class="twitter"></span></a>
+        <a href="http://instagram.com/davidgrilli/" target="_blank"><span class="instagram"></span></a>
         <a href="https://github.com/djGrill/" target="_blank"><span class="github"></span></a>
         <a href="http://linkedin.com/in/djGrill/" target="_blank"><span class="linkedin"></span></a>
       </div>

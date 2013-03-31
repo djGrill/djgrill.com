@@ -135,7 +135,7 @@ span.logo.aboutme {
 span.logo.facebook {
   background: url(../img/icons.png) -22px -2px no-repeat;
 }
-span.logo.formspring {
+span.logo.tumblr {
   background: url(../img/icons.png) -42px -2px no-repeat;
 }
 span.logo.foursquare {
@@ -197,6 +197,9 @@ span.logo.skype {
 }
 .footer .social span.twitter {
   background: url(../img/icons.png) -2px -96px no-repeat;
+}
+.footer .social span.instagram {
+  background: url(../img/icons.png) -31px -125px no-repeat;
 }
 .footer .social span.github {
   background: url(../img/icons.png) -31px -96px no-repeat;
