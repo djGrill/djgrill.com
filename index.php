@@ -73,13 +73,13 @@
       <br />
       <p>He studied Computer Engineering at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a> and <a href='http://guayanaweb.ucab.edu.ve/' target='_blank'>UCAB Guayana</a>, and coursed the CCNA career certification at <a href='http://cisco.netacad.net/' target='_blank'>Cisco Networking Academy</a>. He was also the manager of <a href='http://guayana.gtugs.org/' target='_blank'>Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
       <br />
-      <p>When in High School, David showed a notable interest in Basic Sciences; and discovered his passion for <a href='http://www.codecademy.com' target='_blank'>Programming</a> during his first year at the University.</p>
+      <p>When in High School, he showed a notable interest in Basic Sciences; and discovered his passion for <a href='http://www.codecademy.com' target='_blank'>Programming</a> during his first year at the University.</p>
       <br />
       <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, throwing frisbee, playing videogames and hanging out with his family and friends.</p>
       <br />
       <p>He also enjoys playing guitar and the drums.</p>
       <br />
-      <p class='quote'><i>"I believe in technology<br />bringing people together"</i><br /><span>- David Grilli</span></p>
+      <p class='quote'><i>"I believe in technology bringing people together"</i><br /><span>- David Grilli</span></p>
     </div>
 
     <div class="social-buttons span5">
@@ -105,7 +105,7 @@
       </ul>
       <p>Contact info:</p>
       <ul class='no-bullets with-icons'>
-        <li><span class='logo gmail'></span><strong>Gmail:</strong> djgrill [at] gmail [dot] com</li>
+        <li><span class='logo gmail'></span><strong>Email:</strong> <a href="mailto:website@djgril.com">website@djgrill.com</a></li>
         <li><span class='logo skype'></span><strong>Skype:</strong> davidgrillidiaz</li>
       </ul>
     </div>
@@ -178,7 +178,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Mar 13, 2013</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Apr 14, 2013</div>
     </div>
 
     <div class="row-fluid">
