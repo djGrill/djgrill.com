@@ -5,13 +5,13 @@
 <head>
   <title>David Grilli (djGrill)</title>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-  <meta name="name" content="David Grilli" />
-  <meta name="description" content="Web Developer (Ruby, Rails, PHP) from Ciudad Guayana, Venezuela; currently living in Enschede, Netherlands." />
-  <meta name="keywords" content="david,grilli,geek,fun,web,software,developer,venezuela,guayana,ucab,enschede,netherlands,computer,engineering,google,gtug,gdg,gamer,videogame,djgrill,freelance,freelancer,php,ruby" />
+  <meta name="name" content="David Grilli (djGrill)" />
+  <meta name="description" content="Web Developer experienced on Ruby, Rails, Python, Django, HTML5, CSS3, Haml, Sass, JavaScript, jQuery, Bootstrap, Git, Heroku and Google App Engine." />
+  <meta name="keywords" content="david,grilli,geek,fun,web,software,developer,venezuela,guayana,ucab,enschede,netherlands,cupertino,california,united,states,computer,engineering,google,gtug,gdg,gamer,videogame,djgrill,freelance,freelancer,ruby,rails,python,django" />
   <meta name="robots" content="NOODP,NOYDIR" />
   <meta itemprop="image" content="http://djgrill.com/img/me.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="p:domain_verify" content="f24fcc34ebf17928d613db50a2b9974a" >
+  <meta name="p:domain_verify" content="f24fcc34ebf17928d613db50a2b9974a" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/misc.css" />
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
