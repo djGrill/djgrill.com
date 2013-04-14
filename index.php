@@ -174,7 +174,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> - Updated Apr 14, 2013</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> &middot; Updated Apr 14, 2013</div>
     </div>
 
     <div class="row-fluid">
