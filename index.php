@@ -128,29 +128,25 @@
   <div id="developer" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text4" class="span6">
-      <p>David has 5+ years of Software Development experience, and has worked with the following technologies:</p>
+      <p>David is experienced in the following technologies:</p>
       <ul>
-        <li>Ruby, Rails</li>
-        <li>PHP, Zend</li>
-        <li>XHTML, CSS</li>
-        <li>Haml, Sass</li>
+        <li>Ruby, Rails, Python, Django</li>
+        <li>HTML5, CSS3, Haml, Sass</li>
         <li>JavaScript, CoffeeScript, jQuery, Bootstrap</li>
         <li>JSON, XML, DTD, XSD</li>
-        <li>C, C++</li>
-        <li>Java</li>
         <li>Android, PhoneGap</li>
         <li>MySQL, PostgreSQL, SQLite, Oracle</li>
-        <li>GNU/Linux, Mac OS, MS Windows</li>
         <li>Git, GitHub</li>
         <li>Heroku</li>
-        <li>Apache HTTP</li>
-        <li>Apache Solr</li>
+        <li>Google App Engine</li>
+        <li>GNU/Linux, Mac OS, MS Windows</li>
+        <li>Apache HTTP, Solr</li>
       </ul>
-      <p>However, he's focused primarily on Web Development (web apps, web services and APIs).</p>
+      <p>However, he's focused primarily on Web Development (web apps, services and APIs).</p>
       <p>He also blogs at <a href='http://www.rubyyyo.com' target='_blank'>Ruby y Yo</a> about <a href='http://www.ruby-lang.org' target='_blank'>Ruby</a> and <a href='http://www.rubyonrails.org' target='_blank'>Rails</a> (content in Spanish).</p>
     </div>
     <div id="text5" class="span5">
-      <p>He's a very motivated developer, with strong logical and programming skills.</p>
+      <p>He's a very motivated developer; always open to learn more and help others.</p>
       <p>If you want him to join your team, check the <a onclick='showContact()'>Contact</a> section.</p>
     </div>
   </div>
