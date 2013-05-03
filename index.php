@@ -105,8 +105,11 @@
       </ul>
       <p>Contact info:</p>
       <ul class='no-bullets with-icons'>
-        <li><span class='logo gmail'></span><strong>Email:</strong> <a href="mailto:website@djgril.com">website@djgrill.com</a></li>
-        <li><span class='logo skype'></span><strong>Skype:</strong> davidgrillidiaz</li>
+        <li><span class='logo gmail'></span>Email: <a href="mailto:website@djgril.com">website@djgrill.com</a></li>
+        <li>
+          <span class='logo skype'></span>Skype:
+          <a href="skype:davidgrillidiaz?call">davidgrillidiaz</a>
+        </li>
       </ul>
     </div>
     <div id="text3" class="span5">
