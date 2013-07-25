@@ -69,13 +69,13 @@
   <div id="about" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text1" class="span6">
-      <p><strong>David Grilli</strong> is a Web Developer from Ciudad Guayana, Venezuela; currently living in Cupertino, CA, United States, America, Earth, Milky Way, Universe, Multiverse. He's passionate about technology, user experience and web development; and he's always motivated to learn and improve every day.</p>
+      <p><strong>David Grilli</strong> is a Web Developer from Ciudad Guayana, Venezuela; currently living in London, United Kingdom, Europe, Earth, Milky Way, Universe, Multiverse. He's passionate about technology, user experience and web development; and he's always motivated to learn and improve every day.</p>
       <br />
       <p>He studied Computer Engineering at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a> and <a href='http://guayanaweb.ucab.edu.ve/' target='_blank'>UCAB Guayana</a>, and coursed the CCNA career certification at <a href='http://cisco.netacad.net/' target='_blank'>Cisco Networking Academy</a>. He was also the manager of <a href='http://guayana.gtugs.org/' target='_blank'>Guayana GDG</a>, a community for people interested in Google's developer technology.</p>
       <br />
       <p>When in High School, he showed a notable interest in Basic Sciences; and discovered his passion for <a href='http://www.codecademy.com' target='_blank'>Programming</a> during his first year at the University.</p>
       <br />
-      <p>He enjoys hacking, watching movies, listening to Rock &amp; Roll, running, swimming, throwing frisbee, playing videogames and hanging out with his family and friends.</p>
+      <p>He enjoys hacking, watching movies, listening to rock &amp; roll, running, swimming, throwing frisbee, playing videogames and hanging out with his family and friends.</p>
       <br />
       <p>He also enjoys playing guitar and the drums.</p>
       <br />
@@ -105,7 +105,7 @@
       </ul>
       <p>Contact info:</p>
       <ul class='no-bullets with-icons'>
-        <li><span class='logo gmail'></span>Email: <a href="mailto:website@djgril.com">website@djgrill.com</a></li>
+        <li><span class='logo gmail'></span>Email: <a href="mailto:website@djgrill.com">website@djgrill.com</a></li>
         <li>
           <span class='logo skype'></span>Skype:
           <a href="skype:davidgrillidiaz?call">davidgrillidiaz</a>
@@ -117,12 +117,12 @@
       <ul class='no-bullets with-icons'>
         <li><span class='logo aboutme'></span><a href='http://about.me/djGrill/' target='_blank'>about.me</a></li>
         <li><span class='logo twitter'></span><a href='http://twitter.com/djGrill/' target='_blank'>Twitter</a></li>
-        <li><span class='logo linkedin'></span><a href='http://linkedin.com/in/djgrill/' target='_blank'>LinkedIn</a></li>
+        <li><span class='logo linkedin'></span><a href='http://linkedin.com/in/djGrill/' target='_blank'>LinkedIn</a></li>
         <li><span class='logo facebook'></span><a href='http://facebook.com/djGrill/' target='_blank'>Facebook</a></li>
-        <li><span class='logo googleplus'></span><a href='http://profiles.google.com/djgrill/about/' target='_blank'>Google+</a></li>
-        <li><span class='logo foursquare'></span><a href='http://foursquare.com/djgrill/' target='_blank'>Foursquare</a></li>
-        <li><span class='logo miso'></span><a href='http://gomiso.com/u/djgrill/' target='_blank'>Miso</a></li>
-        <li><span class='logo youtube'></span><a href='http://youtube.com/djgrill/' target='_blank'>YouTube</a></li>
+        <li><span class='logo googleplus'></span><a href='http://profiles.google.com/djGrill/about/' target='_blank'>Google+</a></li>
+        <li><span class='logo foursquare'></span><a href='http://foursquare.com/djGrill/' target='_blank'>Foursquare</a></li>
+        <li><span class='logo miso'></span><a href='http://gomiso.com/u/djGrill/' target='_blank'>Miso</a></li>
+        <li><span class='logo youtube'></span><a href='http://youtube.com/djGrill/' target='_blank'>YouTube</a></li>
         <li><span class='logo tumblr'></span><a href='http://djgrill.tumblr.com/' target='_blank'>Tumblr</a></li>
       </ul>
     </div>
@@ -131,21 +131,19 @@
   <div id="developer" class="row-fluid">
     <div class="span1" style="min-height: 0px; height: 0px;">&nbsp;</div>
     <div id="text4" class="span6">
-      <p>David is experienced in the following technologies:</p>
+      <p>David has worked with the following technologies:</p>
       <ul>
         <li>Ruby, Rails, Python, Django</li>
         <li>HTML5, CSS3, Haml, Sass</li>
-        <li>JavaScript, CoffeeScript, jQuery, Bootstrap</li>
-        <li>JSON, XML, DTD, XSD</li>
-        <li>Android, PhoneGap</li>
-        <li>MySQL, PostgreSQL, SQLite, Oracle</li>
+        <li>JavaScript, CoffeeScript, jQuery, Twitter Bootstrap</li>
+        <li>Backbone.js, Underscore.js, Require.js, Node.js</li>
+        <li>AJAX, JSON, XML</li>
+        <li>MySQL, PostgreSQL, SQLite, Oracle, NoSQL</li>
         <li>Git, GitHub</li>
-        <li>Heroku</li>
-        <li>Google App Engine</li>
-        <li>GNU/Linux, Mac OS, MS Windows</li>
+        <li>Heroku, Google App Engine</li>
+        <li>Mac OS, GNU/Linux, MS Windows</li>
         <li>Apache HTTP, Solr</li>
       </ul>
-      <p>However, he's focused primarily on Web Development (web apps, services and APIs).</p>
       <p>He also blogs at <a href='http://www.rubyyyo.com' target='_blank'>Ruby y Yo</a> about <a href='http://www.ruby-lang.org' target='_blank'>Ruby</a> and <a href='http://www.rubyonrails.org' target='_blank'>Rails</a> (content in Spanish).</p>
     </div>
     <div id="text5" class="span5">
@@ -165,11 +163,12 @@
         <li>Software Developer at <a href='http://4geeks.co/' target='_blank'>4Geeks</a>.</li>
         <li>Web Developer at <a href='http://www.ucab.edu.ve/' target='_blank'>UCAB</a>.</li>
         <li>Web Developer at <a href='http://www.fasha.nl/' target='_blank'>Fasha</a> in Enschede, The Netherlands.</li>
+        <li>Web Developer at <a href='http://www.girlsonamap.com/' target='_blank'>GirlsOnAMap</a> in Cupertino, California.</li>
+        <li>Web Developer at <a href='http://p.ota.to/' target='_blank'>Potato</a> in London, UK.</li>
       </ul>
     </div>
     <div id="text7" class="span5">
-      <p>He's currently working as a <a href='http://en.wikipedia.org/wiki/Web_developer/' target='_blank'>Web Developer</a> at an exiting startup in Cupertino, CA.</p>
-      <p>If you think David could match a job vacancy at your company in the future, check the <a onclick='showContact()'>Contact</a> section.</p>
+      <p>If you think David could be a good match for your team, check the <a onclick='showContact()'>Contact</a> section.</p>
     </div>
   </div>
 
@@ -177,7 +176,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> &middot; Updated Apr 14, 2013</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> &middot; Updated Jul 25, 2013</div>
     </div>
 
     <div class="row-fluid">
