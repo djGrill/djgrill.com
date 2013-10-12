@@ -17,7 +17,7 @@ $(document).keypress(function(e) {
   switch (e.which) {
     case 65:
     case 97:
-      showAbout();
+      window.location = "/";
     break;
     case 66:
     case 98:
@@ -25,15 +25,15 @@ $(document).keypress(function(e) {
     break;
     case 67:
     case 99:
-      showContact();
+      window.location = "/contact";
     break;
     case 68:
     case 100:
-      showDeveloper();
+      window.location = "/developer";
     break;
     case 69:
     case 101:
-      showExperience();
+      window.location = "/experience";
     break;
     case 70:
     case 102:
