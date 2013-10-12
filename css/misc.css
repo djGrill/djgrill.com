@@ -77,30 +77,6 @@ ul.no-bullets {
   -moz-box-shadow: none;
 }
 
-#lan {
-  cursor: pointer;
-  line-height: 30px;
-  margin-top: 5px;
-}
-#lan span {
-  display: inline-block;
-  margin: 0px 3px 0px;
-}
-#lan span.underline {
-  margin: 0px;
-  text-decoration: underline;
-}
-#lan span:hover,
-#lan span.underline:hover, {
-  color: #555;
-  background-color: #eee;
-}
-#lan span.active {
-  font-weight: bold;
-}
-#lan span.active:hover {
-  color: #d14836;
-}
 
 #about p.quote {
   text-align: right;
