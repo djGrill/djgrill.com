@@ -1,6 +1,3 @@
-// global variable used for managing the pages' titles
-json_data = "";
-
 $(document).ready(function() {
   $(".brand").hover(
     function() {
@@ -14,60 +11,7 @@ $(document).ready(function() {
       $(".brand span.g").removeClass("cool-red");
     }
   );
-
-  $("#lan-es").click(function() {
-    showSpanish();
-  });
-
-  $("#lan-en").click(function() {
-    showEnglish();
-  });
 });
-
-function showEnglish() {
-  $.ajax({
-    url: "lan/en.json"
-  }).done(function(data) {
-    $("#lan-en").addClass("active");
-    $("#lan-es").removeClass("active");
-    json_data = data;
-    loadContent(data);
-    showAbout();
-  });
-}
-
-function showSpanish() {
-  $.ajax({
-    url: "lan/es.json"
-  }).done(function(data) {
-    $("#lan-es").addClass("active");
-    $("#lan-en").removeClass("active");
-    json_data = data;
-    loadContent(data);
-    showAbout();
-  });
-}
-
-function loadContent(data) {
-  $("title").html(data.title1);
-
-  $("#nav1").html(data.nav1);
-  $("#nav2").html(data.nav2);
-  $("#nav3").html(data.nav3);
-  $("#nav4").html(data.nav4);
-  $("#nav5").html(data.nav5);
-  $("#nav6").html(data.nav6);
-  $("#nav7").html(data.nav7);
-
-  $("#text1").html(data.text1);
-  $("#text2").html(data.text2);
-  $("#text3").html(data.text3);
-  $("#text4").html(data.text4);
-  $("#text5").html(data.text5);
-  $("#text6").html(data.text6);
-  $("#text7").html(data.text7);
-  $("#text8").html(data.text8);
-}
 
 $(document).keypress(function(e) {
   switch (e.which) {
@@ -99,14 +43,6 @@ $(document).keypress(function(e) {
     case 103:
       window.open("https://github.com/djGrill/");
     break;
-    case 78:
-    case 110:
-      showEnglish();
-    break;
-    case 83:
-    case 115:
-      showSpanish();
-    break;
   }
 });
 
@@ -121,7 +57,7 @@ function showAbout() {
   $("#about").show();
   $(".navbar .nav > li.about").addClass("active");
   restoreFooter();
-  $("title").html(json_data.title1);
+  $("title").html("David Grilli (djGrill)");
 }
 
 function showContact() {
@@ -130,7 +66,7 @@ function showContact() {
   $("#contact").show();
   $(".navbar .nav > li.contact").addClass("active");
   restoreFooter();
-  $("title").html(json_data.title2);
+  $("title").html("Contact - David Grilli (djGrill)");
 }
 
 function showDeveloper() {
@@ -139,7 +75,7 @@ function showDeveloper() {
   $("#developer").show();
   $(".navbar .nav > li.developer").addClass("active");
   restoreFooter();
-  $("title").html(json_data.title3);
+  $("title").html("Developer - David Grilli (djGrill)");
 }
 
 function showExperience() {
@@ -148,5 +84,5 @@ function showExperience() {
   $("#experience").show();
   $(".navbar .nav > li.experience").addClass("active");
   restoreFooter();
-  $("title").html(json_data.title4);
+  $("title").html("Experience - David Grilli (djGrill)");
 }
