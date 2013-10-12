@@ -101,7 +101,7 @@
       </ul>
       <p>Contact info:</p>
       <ul class='no-bullets with-icons'>
-        <li><span class='logo gmail'></span>Email: <a href="mailto:website@djgrill.com">website@djgrill.com</a></li>
+        <li><span class='logo gmail'></span>Email: <a>website [at] djgrill [dot] com</a></li>
         <li>
           <span class='logo skype'></span>Skype:
           <a href="skype:davidgrillidiaz?call">davidgrillidiaz</a>
@@ -172,7 +172,7 @@
     <div class="lnsep"></div>
 
     <div class="row-fluid">
-      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> &middot; Updated Jul 25, 2013</div>
+      <div id="text8" class="span12">This page is <a href='https://github.com/djGrill/djgrill.com/' target='_blank'>Open Source</a> &middot; Updated Oct 12, 2013</div>
     </div>
 
     <div class="row-fluid">
