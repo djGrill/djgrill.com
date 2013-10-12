@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   $(".brand").hover(
     function() {
       $(".brand span.id").removeClass("cool-red");
@@ -45,44 +45,3 @@ $(document).keypress(function(e) {
     break;
   }
 });
-
-function restoreFooter() {
-  // id is used because the footer is also a .navbar
-  $(".footer .row-fluid").show();
-}
-
-function showAbout() {
-  $(".row-fluid").hide();
-  $(".navbar .nav > li").removeClass("active");
-  $("#about").show();
-  $(".navbar .nav > li.about").addClass("active");
-  restoreFooter();
-  $("title").html("David Grilli (djGrill)");
-}
-
-function showContact() {
-  $(".row-fluid").hide();
-  $(".navbar .nav > li").removeClass("active");
-  $("#contact").show();
-  $(".navbar .nav > li.contact").addClass("active");
-  restoreFooter();
-  $("title").html("Contact - David Grilli (djGrill)");
-}
-
-function showDeveloper() {
-  $(".row-fluid").hide();
-  $(".navbar .nav > li").removeClass("active");
-  $("#developer").show();
-  $(".navbar .nav > li.developer").addClass("active");
-  restoreFooter();
-  $("title").html("Developer - David Grilli (djGrill)");
-}
-
-function showExperience() {
-  $(".row-fluid").hide();
-  $(".navbar .nav > li").removeClass("active");
-  $("#experience").show();
-  $(".navbar .nav > li.experience").addClass("active");
-  restoreFooter();
-  $("title").html("Experience - David Grilli (djGrill)");
-}

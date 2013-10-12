@@ -6,6 +6,7 @@ a:hover {
   font-weight: bold;
 }
 
+
 ul.with-icons {
   margin-left: 5px;
 }
@@ -13,9 +14,11 @@ ul.no-bullets {
   list-style-type: none;
 }
 
+
 .cool-red {
   color: #d14836;
 }
+
 
 .lnsep {
   width: 100%;
@@ -23,19 +26,21 @@ ul.no-bullets {
   margin: 0px auto 5px;
 }
 
+
 .active {
   color: #d14836;
 }
+
 
 .underline {
   text-decoration: underline;
 }
 
+
 .navbar .brand {
   font-family: "Maven Pro", "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 30px;
 }
-
 .navbar .nav > li a {
   font-weight: bold;
   cursor: pointer;
@@ -91,11 +96,6 @@ ul.no-bullets {
   margin-right: 20px;
 }
 
-#contact,
-#developer,
-#experience {
-  display: none;
-}
 
 span.logo {
   display: inline-block;
@@ -104,7 +104,6 @@ span.logo {
   margin-bottom: -2px;
   margin-right: 10px;
 }
-
 span.logo.aboutme {
   background: url(../img/icons.png) -2px -2px no-repeat;
 }
@@ -138,6 +137,7 @@ span.logo.gmail {
 span.logo.skype {
   background: url(../img/icons.png) -42px -42px no-repeat;
 }
+
 
 .footer {
   color: gray;
