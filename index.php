@@ -57,10 +57,6 @@
             <li><a class="external" href="http://facebook.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav6"><span class="underline">F</span>acebook</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
             <li><a class="external" href="https://github.com/djGrill/" target="_blank" data-toggle="collapse" data-target=".nav-collapse"><span id="nav7"><span class="underline">G</span>itHub</span><span class="icon visible-desktop"></span><span class="icon hidden-desktop"></span></a></li>
           </ul>
-
-          <div id="lan" class="pull-right">
-            <span id="lan-en" class="active">e<span class="underline">n</span></span>/<span id="lan-es">e<span class="underline">s</span></span>
-          </div>
         </div>
       </div>
     </div>
