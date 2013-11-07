@@ -14,5 +14,4 @@ This is my personal website, which is currently hosted on [Heroku](http://djgril
 
 ### Commits:
 - Commit messages end with the related issue's number (see [this](https://github.com/blog/831-issues-2-0-the-next-generation)).
-- Always include list of modified files in commit message (don't use commit -m).
 - Always merge from dev and master using the --no-ff option.
