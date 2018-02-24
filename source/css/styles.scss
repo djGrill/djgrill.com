@@ -1,0 +1,57 @@
+$colorOrange: #E68301;
+$colorGreen: #69B111;
+$colorBlue: #118ECE;
+$colorPurple: #862872;
+$colorYellow: #F8BB13;
+$colorRed: #C62D32;
+$logoLetterBigDimension: 200px;
+$logoLetterSmallDimension: $logoLetterBigDimension / 2;
+$firstLetterDMarginRight: (($logoLetterBigDimension / 5.5) + 2) * (-1);
+
+
+body {
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+
+  .letter {
+    display: inline-block;
+    width: 0;
+    height: 0;
+
+    &.letter-d {
+      height: $logoLetterBigDimension;
+      width: $logoLetterSmallDimension;
+      border-radius: 0 $logoLetterSmallDimension $logoLetterSmallDimension 0;
+      background: $colorOrange;
+
+      &.first {
+        margin-right: $firstLetterDMarginRight;
+      }
+
+      &.last {
+        background: $colorYellow;
+      }
+    }
+
+    &.letter-a {
+      border-left: $logoLetterSmallDimension solid transparent;
+      border-bottom: $logoLetterBigDimension solid $colorGreen;
+    }
+
+    &.letter-v {
+      border-right: $logoLetterSmallDimension solid transparent;
+      border-top: $logoLetterBigDimension solid $colorBlue;
+    }
+
+    &.letter-i {
+      width: $logoLetterSmallDimension;
+      height: $logoLetterBigDimension;
+      background: $colorRed;
+    }
+  }
+
+}
