@@ -1,8 +1,8 @@
 use Rack::Static,
-    :urls => ["/img", "/js", "/css"],
-    :root => "public"
+    :urls => ['/img', '/js', '/css'],
+    :root => 'public'
 
-map "/" do
+map '/' do
     run lambda { |env|
         [
             200,
@@ -15,7 +15,7 @@ map "/" do
     }
 end
 
-map "/sitemap.xml" do
+map '/sitemap.xml' do
     run lambda { |env|
         [
             200,
@@ -28,7 +28,7 @@ map "/sitemap.xml" do
     }
 end
 
-map "/contact" do
+map '/contact' do
     run lambda { |env|
         [
             200,
@@ -41,7 +41,7 @@ map "/contact" do
     }
 end
 
-map "/developer" do
+map '/developer' do
     run lambda { |env|
         [
             200,
@@ -54,7 +54,7 @@ map "/developer" do
     }
 end
 
-map "/experience" do
+map '/experience' do
     run lambda { |env|
         [
             200,
